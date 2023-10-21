@@ -5,25 +5,40 @@ code {
 
 html{
     background-color: #282C33;
+
+
 }
 body{
     background-color: #282C33;
 }
 header{
-    
+
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    padding: 32px 0px 8px 0px;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+.nav-link{
+    color: var(--gray, #ABB2BF);
     font-family: Fira Code;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
-.nav-link{
-    color: var(--gray, #ABB2BF)!important;
-    font-family: Fira Code;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+.nav-link :hover{
+    color: var(--white, #fff)!important;
+}
+.nav {
+
+    --bs-nav-link-hover-color: #ffffff;
+    --bs-nav-link-disabled-color: var(--bs-secondary-color);
 }
 .hash{
     color: var(--primary, #C778DD) !important;
@@ -33,4 +48,49 @@ header{
     font-weight: 500;
     line-height: normal;
     
+}
+/*For header name jaeromel*/
+
+.fs-4{
+    color: var(--white, #FFF);
+font-family: Fira Code;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.flex-container{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    transform: rotate(90deg);
+    gap: 8px;
+    width: 311px;
+    height: 32px;
+
+    
+}
+.flex-container>*:first-child {
+    align-self: center;
+  }
+.flex-container .line{
+    width: 1px;
+    height: 1px;
+    transform: rotate(90deg);
+    fill: var(--gray, #ABB2BF)!important;
+}
+.flex-container .git{
+    width: 5px;
+    height: 10px;
+    /* position:relative; */
+    padding-top: 8px;
+    transform: rotate(270deg);
+}
+.flex-container .linkin{
+    width: 1px;
+    height: 1px;
+    transform: rotate(360deg); 
+    /* position: absolute; */
+    top: 100%;
 }

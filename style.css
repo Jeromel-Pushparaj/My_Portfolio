@@ -61,26 +61,32 @@ line-height: normal;
 }
 
 .flex-container{
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
+
+    position: absolute;
     transform: rotate(90deg);
-    gap: 8px;
     width: 311px;
     height: 32px;
 
     
 }
-.flex-container>*:first-child {
-    align-self: center;
-  }
+
 .flex-container .line{
+    position: fixed;
+    top: -100px;
+    right: 45%;
+    bottom: 45%;
+    left: 45%;
     width: 1px;
-    height: 1px;
+    height: 191px;
     transform: rotate(90deg);
     fill: var(--gray, #ABB2BF)!important;
 }
 .flex-container .git{
+    position: fixed;
+    top: 3px;
+    right: 50%;
+    bottom: 45%;
+    left: 78%;
     width: 5px;
     height: 10px;
     /* position:relative; */

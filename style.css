@@ -12,7 +12,6 @@ body{
     background-color: #282C33;
 }
 header{
-
     font-family: Fira Code;
     font-size: 16px;
     font-style: normal;
@@ -59,6 +58,10 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+.con{
+    margin-top: 7%;
+}
+
 
 .flex-container{
 
@@ -109,7 +112,7 @@ h1{
 .greet{
     color: var(--white, #FFF);
     font-family: Fira Code;
-    font-size: 32px;
+    font-size: 42px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -135,12 +138,13 @@ line-height: 25px; /* 156.25% */
 
 }
 .logo_1{
-    position: absolute;
-    right: 20%;
+    position: fixed;
+    right: 80%;
     left: 59%;
     top: 20%;
     bottom: 0%;
     width: 155px;
+
 height: 155px;
 flex-shrink: 0;     
 }
@@ -184,9 +188,9 @@ justify-content: space-between;
 align-items: flex-start;
 flex-shrink: 0;
 position: absolute;
-left: 78%;
+left: 68%;
 right: 40%;
-top: 37%;
+top: 55%;
 }
 .ellipse22{
     display: flex;
@@ -201,6 +205,24 @@ top: 37%;
 
 
 
-@media (max-width: 1231px){
-    
+@media (max-width: 360px) {
+    .container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+      }
+    .con{
+        width: 328px;
+    }
+    h1{
+        width: 328px;
+    }
+    .greet{
+        font-size: 100%;
+    }
+    .flex-container{
+        opacity: 0%;
+    }
 }

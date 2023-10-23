@@ -127,7 +127,7 @@ font-weight: 400;
 line-height: 25px; /* 156.25% */
 }
 
-.img_1{
+.image{
     position: absolute;
     right: 59%;
     left: 60%;
@@ -135,17 +135,19 @@ line-height: 25px; /* 156.25% */
     width: 457px;
     height: 386px;
     flex-shrink: 0;
+    z-index: 1;
 
 }
 .logo_1{
     position: absolute;
     right: 80%;
-    left: 59%;
-    top: 20%;
+    left: -5%;
+    top: 22%;
     bottom: 0%;
     width: 155px !important;
     height: 155px;  
-    flex-shrink: 0;     
+    flex-shrink: 0;   
+    z-index: -1;  
 }
 
 .live_btn{
@@ -182,10 +184,10 @@ flex-direction: column;
 justify-content: space-between;
 align-items: flex-start;
 flex-shrink: 0;
-position: absolute;
-left: 68%;
-right: 40%;
-top: 55%;
+position: relative;
+left: 78%;
+right: 50%;
+top:-40%;
 }
 .ellipse22{
     display: flex;
@@ -196,6 +198,46 @@ top: 55%;
     width: 84px;
 }
 
+.rect{
+    /* display: flex; */
+    width: 402px;
+    height: 30px;
+    padding: 8px;
+    align-items: center;
+    /* gap: 10px; */
+    border: 1px solid var(--gray, #ABB2BF);
+    position: absolute;
+    right: 10px;
+    bottom: 6px;
+    left: 1170px;
+    top: 490px;
+}
+.rect-txt{
+    color: var(--gray, #ABB2BF);
+font-family: Fira Code;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+align-items: center;
+position: relative;
+left: 7%;
+top: -180%;
+bottom: 10%;
+/* padding-top: 8px; */
+}
+.square{
+    width: 16px;
+    height: 16px;
+    padding-bottom: 8px;
+    position: relative;
+    top: -10%;
+    border: 1px solid var(--primary, #C778DD);
+    background: var(--primary, #C778DD);
+}
+.b{
+    display: none;
+}
 
 
 
@@ -216,7 +258,7 @@ top: 55%;
       }
       
     .con{
-        width: 328px;
+        width: 300px;
     }
     h1{
         width: 328px;
@@ -239,28 +281,55 @@ top: 55%;
 
     .img_1 > img:nth-child(1) {
         width: 340px;
+    }
+    .logo_1>img:nth-child(1){
+        width: 109px;
+        position: relative;
+        top: -15%;
+        left: 14%;
+
+    }
+    .image{
         position: absolute;
-        top: 60%;
-        left: -45%;
-        right: 20%;
+        top: 45%;
+        left: 3%;
+        right: 30%;
     }
     .ellipse {
-        position: absolute;
+        position: relative;
         bottom: 20%;
         right: 10%;
-        left: 70%;
-        top: revert;
-        bottom: 20%;
+        left: 55%;
+        top: -30%;
+        bottom: 10%;
+
         }
     .live_btn{
         display: none;
     }
 
-    .logo_1{
-        display: none;
-    }
     .nav{
         display: none;
     }
+    .nav-m{
+        grid-row: auto;
+        position: absolute;
+        left: 90%;
+    }
+    .b{
+        display: block;
+    }
+    .b1{
+        display: none;
+    }
+    .rect{
+        position: absolute;
+        right: 100%;
+        left: 5%;
+        top: 85%;
+        width: 320px;
+        padding: 8px;
+    }
+    
 
 }

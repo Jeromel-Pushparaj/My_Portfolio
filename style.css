@@ -65,7 +65,7 @@ line-height: normal;
 
 .flex-container{
 
-    position: absolute;
+    position: fixed;
     transform: rotate(90deg);
     width: 311px;
     height: 32px;
@@ -238,6 +238,63 @@ bottom: 10%;
 .b{
     display: none;
 }
+.nav-m{
+    display: none;
+}
+.quote{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    align-items: center;
+}
+.qbox{
+    display: inline-flex;
+    padding: 32px;
+    align-items: flex-start;
+    border: 1px solid var(--gray, #ABB2BF);
+    background: var(--background, #282C33);
+}
+.qtxt{
+    color: #FFF;
+    font-family: Fira Code;
+    font-size: 24px;
+    margin-bottom: 0%;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.qicon{
+    display: flex;
+    padding: 4px 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;  
+    position: absolute;
+    left: 11px;
+    top: -14px;
+    background: var(--background, #282C33);
+}
+.qboxs{
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    right: 0px;
+    bottom: -50px;
+    border: 1px solid var(--gray, #ABB2BF);    
+    padding: 8px;
+}
+.qtxt1{
+    color: #FFF;
+    font-family: Fira Code;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+    margin-bottom: 0px;  
+}
+
 
 
 

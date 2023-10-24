@@ -5,7 +5,7 @@ code {
 
 html{
     background-color: #282C33;
-
+    overflow-x: hidden;
 
 }
 body{
@@ -22,7 +22,9 @@ header{
     justify-content: space-between;
     align-items: flex-end;
 
+    
 }
+
 .nav-link{
     color: var(--gray, #ABB2BF);
     font-family: Fira Code;
@@ -35,7 +37,7 @@ header{
     color: var(--white, #fff)!important;
 }
 .nav {
-
+    
     --bs-nav-link-hover-color: #ffffff;
     --bs-nav-link-disabled-color: var(--bs-secondary-color);
 }
@@ -46,6 +48,7 @@ header{
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+
     
 }
 /*For header name jaeromel*/
@@ -294,7 +297,40 @@ bottom: 10%;
     line-height: normal;  
     margin-bottom: 0px;  
 }
+.qsquare{
+    width: 91px;
+    height: 91px;
+    flex-shrink: 0; 
+    border: 1px solid var(--gray, #ABB2BF);
+    position: absolute;
+    top: 70%;
+    left: 97%;
 
+}
+.prosum{
+    display: flex;
+    position: absolute;
+    top: 100%;
+    bottom: -8%;
+}
+.proh2{
+    color: var(--white, #FFF);
+    font-family: Fira Code;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;    
+}
+.proline{
+    height: 2px;
+    flex:1 0 0;
+    fill: var(--primary, #C778DD);
+    position: absolute;
+    left: 110%;
+    top: 10%;
+    
+
+}
 
 
 

@@ -444,8 +444,214 @@ right: 47%;
     left: 100%;
     top: 10%;
 }
+.skillcard{
+    position: absolute;
+    top: 160%;
+    left: 46%;
+}
+.skillcard2{
+    position: absolute;
+    top: 160%;
+    left: 58%;
+}
+.skillcard3{
+    position: absolute;
+    top: 160%;
+    left: 71.2%;
+}
+.skillcard4{
+    position: absolute;
+    top: 180%;
+    left: 71.2%;
+}
+.skillcard5{
+    position: absolute;
+    top: 172%;
+    left: 58%;
+}
+.qsquare2{
+    width: 90px;
+    height: 90px;
+    flex-shrink: 0; 
+    border: 1px solid var(--gray, #ABB2BF);
+    position: absolute;
+    top: 157%;
+    left: 33%;
+}
+.qsquare3{
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0; 
+    border: 1px solid var(--gray, #ABB2BF);
+    position: absolute;
+    top: 182%;
+    left: 37%;
+}
+.ellipse1{
+    display: flex;
+    width: 55px;
+    height: 65px;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+flex-shrink: 0;
+position: absolute;
+top: 158%;
+left: 19%;
 
+}
+.ellipse2{
+    display: flex;
+width: 50px;
+height: 60px;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+flex-shrink: 0;
+position: absolute;
+top: 173%;
+left: 29%;
+}
+.slogo_1{
+    position: absolute;
+    top: 178%;
+    left: 19.5%; 
+}
+.skillcardtxt1{
+    color: var(--white, #ffffff);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;   
+    position: relative; 
+    top: -50%;
+}
+.upperbox1{
+    display: flex;
+    width: 182px;
+    height: 30px;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;   
+    border: 1px solid var(--gray, #ABB2BF); 
+    position: absolute;
+    top: 110%;
+}
+.lowerbox1{
+    display: flex;
+    width: 182px;
+    height: 87px;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;   
+    border: 1px solid var(--gray, #ABB2BF);
+    position: absolute;
+    top: 110%;
 
+}
+.upperbox2{
+    display: flex;
+    width: 198px;
+    height: 30px;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;   
+    border: 1px solid var(--gray, #ABB2BF); 
+    position: absolute;
+    top: 110%;
+}
+.lowerbox2{
+    display: flex;
+    width: 198px;
+    height: 87px;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;   
+    border: 1px solid var(--gray, #ABB2BF);
+    position: absolute;
+    top: 110%;
+
+}
+.upperbox3{
+    display: flex;
+    width: 220px;
+    height: 30px;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;   
+    border: 1px solid var(--gray, #ABB2BF); 
+    position: absolute;
+    top: 110%;
+}
+.lowerbox3{
+    display: flex;
+    width: 220px;
+    height: 160px;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;   
+    border: 1px solid var(--gray, #ABB2BF);
+    position: absolute;
+    top: 110%;
+
+}
+.upperbox4{
+    display: flex;
+    width: 220px;
+    height: 30px;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;   
+    border: 1px solid var(--gray, #ABB2BF); 
+    position: absolute;
+    top: 110%;
+}
+.lowerbox4{
+    display: flex;
+    width: 220px;
+    height: 160px;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;   
+    border: 1px solid var(--gray, #ABB2BF);
+    position: absolute;
+    top: 110%;
+
+}
+.upperbox5{
+    display: flex;
+    width: 198px;
+    height: 30px;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;   
+    border: 1px solid var(--gray, #ABB2BF); 
+    position: absolute;
+    top: 110%;
+}
+.lowerbox5{
+    display: flex;
+    width: 198px;
+    height: 87px;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;   
+    border: 1px solid var(--gray, #ABB2BF);
+    position: absolute;
+    top: 110%;
+
+}
 
 
 

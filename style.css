@@ -652,6 +652,33 @@ left: 29%;
     top: 110%;
 
 }
+.about-me{
+        position: absolute;
+        top: 202%;
+
+}
+.aboutmeline{
+    height: 2px;
+    flex:1 0 0;
+    fill: var(--primary, #C778DD);
+    position: absolute;
+    left: 110%;
+    top: 17%;
+    
+}
+.description{
+    width: 515px;
+    position: absolute;
+    top: 210%;
+}
+.descriptiontxt{
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */ 
+}
 
 
 

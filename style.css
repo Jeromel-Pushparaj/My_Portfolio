@@ -731,7 +731,76 @@ left: 29%;
     top: 208%;
     left: 67.5%;
     transform: rotate(90deg);
-} 
+}
+.live_btn1{
+    display: inline-flex;
+    padding: 8px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px solid var(--primary, #C778DD);
+    background-color: transparent;
+    position: absolute;
+    top: 250%;
+}
+.contact-me{
+    position: absolute;
+    top: 270%;
+
+
+}
+.contactmeline{
+height: 2px;
+flex:1 0 0;
+fill: var(--primary, #C778DD);
+position: absolute;
+left: 110%;
+top: 17%;
+
+}
+.des{
+    width: 515px;
+    position: absolute;
+    top: 280%;
+}
+.destxt{
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */ 
+}
+.qsquare4{
+    width: 250px;
+    height: 130px;
+    flex-shrink: 0; 
+    border: 1px solid var(--gray, #ABB2BF);
+    position: absolute;
+    top: 288%;
+    left: 72%;
+}
+.username1{
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */ 
+    position: relative;
+    left: 20%;
+    bottom: 22%;
+}
+.username2{
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */ 
+    position: relative;
+    left: 20%;
+    bottom: 60%;
+}
 
 
 

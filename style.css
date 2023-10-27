@@ -815,11 +815,13 @@ top: 17%;
     transform: rotate(90deg);
 }
 .footbord{
-    width: 2000px;
-    border: 1px solid var(--gray, #ABB2BF);
     position: absolute;
     top: 310%;
     left: 0%;
+}
+hr{
+    color: #ABB2BF;
+    height: 8px;
 }
 
 

@@ -24,6 +24,14 @@ header{
 
     
 }
+.navbar{
+    width: 2000px;
+    height: px;
+    background-color: #282C33;
+    position: fixed;
+    bottom: 90%;
+    z-index: 2;
+}
 
 .nav-link{
     color: var(--gray, #ABB2BF);
@@ -814,16 +822,69 @@ top: 17%;
     left: -1%;
     transform: rotate(90deg);
 }
-.footbord{
+.footer{
     position: absolute;
-    top: 310%;
-    left: 0%;
+    top: 320%;
+    left: -8%;
+    width: 2060px;
 }
+
 hr{
     color: #ABB2BF;
     height: 8px;
+    position: relative;
+    top: 10%;
 }
-
+.unlogo{
+    position: relative;
+    left: 6%;
+    top: 50%;
+}
+.destxt1{
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */ 
+    position: absolute;
+    left: 10%;
+    top: 5%;
+}
+.txt1{
+    color: var(--white, #FFF);
+font-family: Fira Code;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+position: absolute;
+top: 150%;
+}
+.txt2{
+    color: var(--white, #FFF);
+font-family: Fira Code;
+font-size: 27px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+position: relative;
+left: 8%;
+}
+.footleft{
+    margin-top: 16px;
+    position: absolute;
+    left: 80%;
+    top: 18%;
+}
+.logos{
+    margin-top: 8px;
+}
+.copywrite{
+    position: absolute;
+    left: 50%;
+    top: 210%;
+}
 
 
 

@@ -724,6 +724,15 @@ left: 29%;
     top: 97%;
     
 }
+.qsquare6{
+    width: 100px;
+    height: 150px;
+    flex-shrink: 0; 
+    border: 1px solid var(--gray, #ABB2BF);
+    position: absolute;
+    top: 220%;
+    left: -3%;
+}
 .ellipse4{
     display: flex;
     width: 90px;
@@ -903,7 +912,7 @@ left: 8%;
 
 
 
-@media (max-width: 360px) {
+@media (max-width: 380px) {
     .container {
         width: 100%;
         margin-left: auto;
@@ -988,6 +997,21 @@ left: 8%;
         top: 85%;
         width: 320px;
         padding: 8px;
+    }
+    .secquote{
+        display: none;
+    }
+    .s2{
+        display: none;
+    }
+    .s3{
+        display: none;
+    }
+    .s4{
+        display: none;
+    }
+    .s5{
+        display: none;
     }
     
 

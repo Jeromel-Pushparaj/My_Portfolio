@@ -25,12 +25,14 @@ header{
     
 }
 .navbar{
-    width: 2000px;
-    height: px;
+    width: 1300px;
+    height: 50px;
     background-color: #282C33;
     position: fixed;
-    bottom: 90%;
+    bottom: 95%;
+    left: 16%;
     z-index: 2;
+    /* border: 1px solid var(--gray, #ABB2BF); */
 }
 
 .nav-link{
@@ -48,6 +50,8 @@ header{
     
     --bs-nav-link-hover-color: #ffffff;
     --bs-nav-link-disabled-color: var(--bs-secondary-color);
+    position: relative;
+    left: 125%;
 }
 .hash{
     color: var(--primary, #C778DD) !important;
@@ -75,6 +79,11 @@ line-height: normal;
 .con{
     margin-top: 7%;
 }
+.d-flex{
+    position: relative;
+    bottom: 50%;
+}
+
 
 
 .flex-container{
@@ -885,6 +894,12 @@ left: 8%;
     left: 50%;
     top: 210%;
 }
+.copywrite2{
+    position: absolute;
+    left: 50%;
+    top: 250%;
+}
+
 
 
 

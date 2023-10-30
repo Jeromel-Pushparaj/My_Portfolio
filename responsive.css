@@ -102,7 +102,110 @@
     
 
 }
+@media (max-width: 1820px) {
+    .container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+      }
+      header.d-flex {
+        margin: 0px !important;
+        height: 40px;
+      }
+      
+    .con{
+        width: 300px;
+    }
+    h1{
+        width: 328px;
+    }
+    .greet{
+        font-size: 135%;
+        padding-top: 10px;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    .flex-container{
+        opacity: 0%;
+    }
+    .pa{
+        font-size: 12px;
+    }
 
+/* Element | file:///D:/My_portfolio/Home.html# */
+
+    .img_1 > img:nth-child(1) {
+        width: 340px;
+    }
+    .logo_1>img:nth-child(1){
+        width: 109px;
+        position: relative;
+        top: -15%;
+        left: 14%;
+
+    }
+    .image{
+        position: absolute;
+        top: 45%;
+        left: 3%;
+        right: 30%;
+    }
+    .ellipse {
+        position: relative;
+        bottom: 20%;
+        right: 10%;
+        left: 55%;
+        top: -30%;
+        bottom: 10%;
+
+        }
+    .live_btn{
+        display: none;
+    }
+
+    .nav{
+        display: none;
+    }
+    .nav-m{
+        grid-row: auto;
+        position: absolute;
+        left: 90%;
+    }
+    .b{
+        display: block;
+    }
+    .b1{
+        display: none;
+    }
+    .rect{
+        position: absolute;
+        right: 100%;
+        left: 5%;
+        top: 85%;
+        width: 320px;
+        padding: 8px;
+    }
+    .secquote{
+        display: none;
+    }
+    .s2{
+        display: none;
+    }
+    .s3{
+        display: none;
+    }
+    .s4{
+        display: none;
+    }
+    .s5{
+        display: none;
+    }
+    
+
+}
 @media (max-width: 475px) {
 
 .container {

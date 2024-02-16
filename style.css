@@ -1,929 +1,120 @@
-/* @import url('https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css');
-code {
-  font-family: 'Fira Code', monospace;
-} */
-
-@import url(https://fonts.googleapis.com/css2?family=Popings:wight@100;200;300;400;500;700;800;900&display=swap);
-
-html{
-    background-color: #282C33;
-    overflow-x: hidden;
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+.grid-container{
+    max-width: 1520px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(10px, auto) minmax(720px, auto) minmax(720px, auto) minmax(1080px, auto) minmax(1080px, auto)  minmax(360px, auto) minmax(40px, auto);
+    grid-template-areas: "img content";
+    gap: 10px;
 
 }
-.container{
-    max-width: 700px;
-}
-body{
-    background-color: #282C33;
-}
+
 header{
-    font-family: Fira Code;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    display: flex;
-    padding: 32px 0px 8px 0px;
-    justify-content: space-between;
-    align-items: flex-end;
-
-    
-}
-.navbar{
-    width: 1300px;
-    height: 50px;
-    background-color: #282C33;
-    position: fixed;
-    bottom: 95%;
-    left: 16%;
-    z-index: 2;
-    /* border: 1px solid var(--gray, #ABB2BF); */
-}
-
-.nav-link{
-    color: var(--gray, #ABB2BF);
-    font-family: Fira Code;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-.nav-link :hover{
-    color: var(--white, #fff)!important;
-}
-.nav {
-    
-    --bs-nav-link-hover-color: #ffffff;
-    --bs-nav-link-disabled-color: var(--bs-secondary-color);
-    position: relative;
-    left: 125%;
-}
-.hash{
-    color: var(--primary, #C778DD) !important;
-    font-family: Fira Code;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-
-    
-}
-.active{
-    color: var(--white,#fff);
-}
-/*For header name jaeromel*/
-
-.fs-4{
-    color: var(--white, #FFF);
-font-family: Fira Code;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
-.con{
-    margin-top: 7%;
-}
-.d-flex{
-    position: relative;
-    bottom: 50%;
-}
-
-
-
-.flex-container{
-
-    position: fixed;
-    transform: rotate(90deg);
-    width: 311px;
-    height: 32px;
-
-    
-}
-
-.flex-container .line{
-    position: fixed;
-    top: -100px;
-    right: 45%;
-    bottom: 45%;
-    left: 45%;
-    width: 1px;
-    height: 191px;
-    transform: rotate(90deg);
-    fill: var(--gray, #ABB2BF)!important;
-}
-.flex-container .git{
-    position: fixed;
-    top: 3px;
-    right: 50%;
-    bottom: 45%;
-    left: 78%;
-    width: 5px;
-    height: 10px;
-    /* position:relative; */
-    padding-top: 8px;
-    transform: rotate(270deg);
-}
-.flex-container .linkin{
-    width: 1px;
-    height: 1px;
-    transform: rotate(360deg); 
-    /* position: absolute; */
-    top: 150%;
-}
-
-
-h1{
-    width: 650px;  
-}
-
-.greet{
-    color: var(--white, #FFF);
-    font-family: Fira Code;
-    font-size: 42px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-.pa{
-    width: 463px;
-    color: var(--gray, #ABB2BF);
-font-family: Fira Code;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 25px; /* 156.25% */
-}
-
-.image{
-    position: absolute;
-    right: 59%;
-    left: 60.5%;
-    top: 11%;
-    width: 457px;
-    height: 386px;
-    flex-shrink: 0;
-    z-index: 1;
-
-}
-.logo_1{
-    position: absolute;
-    right: 80%;
-    left: -5%;
-    top: 22%;
-    bottom: 0%;
-    width: 155px !important;
-    height: 155px;  
-    flex-shrink: 0;   
-    z-index: -1;  
-}
-
-.live_btn{
-    display: inline-flex;
-    padding: 8px 16px;
-    align-items: flex-start;
-    gap: 10px;
-    border: 1px solid var(--primary, #C778DD);
-    background-color: transparent;
-}
-
-.txt{
-    color: var(--white, #FFF);
-font-family: Fira Code;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-}
-.ellipse{
-    display: flex;
-width: 84px;
-height: 84px;
-flex-direction: column;
-justify-content: space-between;
-align-items: flex-start;
-flex-shrink: 0;
-position: relative;
-left: 78%;
-right: 50%;
-top:-40%;
-}
-.ellipse22{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    align-self: stretch;
-    height: 2px;
-    width: 84px;
-}
-
-.rect{
-    /* display: flex; */
-    width: 402px;
-    height: 30px;
-    padding: 8px;
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-    /* gap: 10px; */
-    border: 1px solid var(--gray, #ABB2BF);
-    position: absolute;
-    right: 10px;
-    bottom: 6px;
-    left: 1170px;
-    top: 490px;
+    justify-content: center;
+    background-image: linear-gradient(rgb(93,53,235,32%) ,rgb(190,0,234,10%) );
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px rgb(128, 0, 128, 30%);
 }
-.rect-txt{
-    color: var(--gray, #ABB2BF);
-font-family: Fira Code;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-align-items: center;
-position: relative;
-left: 7%;
-top: -180%;
-bottom: 10%;
-/* padding-top: 8px; */
+.headh2{
+    justify-self: left;
+    align-self: left;
+    margin: 10px;
+    color: rgb(93, 53, 135);
+    font-family: Inria Sans;
+    font-weight: bolder;
 }
-.square{
-    width: 16px;
-    height: 16px;
-    padding-bottom: 8px;
-    position: relative;
-    top: -10%;
-    border: 1px solid var(--primary, #C778DD);
-    background: var(--primary, #C778DD);
+.nav-items{
+    margin: 5px;
+    justify-self: right;
+    align-self: right;
+    color: rgb(93, 53, 135);
+    font-size: 16px;
+    font-family: Inria Sans;
+    
+    
+    
 }
-.b{
+.menubar{
     display: none;
 }
-.nav-m{
-    display: none;
-}
-.quote{
-    position: absolute;
-    top: 70%;
-    left: 30%;
-    align-items: center;
-}
-.qbox{
-    display: inline-flex;
-    padding: 32px;
-    align-items: flex-start;
-    border: 1px solid var(--gray, #ABB2BF);
-    background: var(--background, #282C33);
-}
-.qtxt{
-    color: #FFF;
-    font-family: Fira Code;
-    font-size: 24px;
-    margin-bottom: 0%;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-.qicon{
-    display: flex;
-    padding: 4px 8px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;  
-    position: absolute;
-    left: 11px;
-    top: -14px;
-    background: var(--background, #282C33);
-}
-.qboxs{
-    display: flex;
-    padding: 16px;
-    align-items: flex-start;
-    gap: 10px;
-    position: absolute;
-    right: 0px;
-    bottom: -50px;
-    border: 1px solid var(--gray, #ABB2BF);    
-    padding: 8px;
-}
-.qtxt1{
-    color: #FFF;
-    font-family: Fira Code;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;  
-    margin-bottom: 0px;  
-}
-.qsquare{
-    width: 91px;
-    height: 91px;
-    flex-shrink: 0; 
-    border: 1px solid var(--gray, #ABB2BF);
-    position: absolute;
-    top: 70%;
-    left: 97%;
+.a1{
+    margin: 10px;
 
 }
-.prosum{
-    display: flex;
-    position: absolute;
-    top: 100%;
-    bottom: -8%;
-}
-.proh2{
-    color: var(--white, #FFF);
-    font-family: Fira Code;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;    
-}
-.proline{
-    height: 2px;
-    flex:1 0 0;
-    fill: var(--primary, #C778DD);
-    position: absolute;
-    left: 70%;
-    top: 10%;
-    
+.a2{
+    margin: 10px;
 
 }
-.prolink{
-    position: relative;
-    left: 380%;
-}
-.prop{
-    color: var(--white, #ABB2BF);
-    font-family: Fira Code;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;   
-}
-.prolink :hover{
-    color: var(--white, #fff);
-}
-.upperbox{
-    display: flex;
-    width: 300px;
-    height: 30px;
-    padding: 8px;
-    align-items: flex-start;
-    gap: 8px;
-    align-self: stretch;   
-    border: 1px solid var(--gray, #ABB2BF); 
-    position: absolute;
-    top: 110%;
-}
-.lowerbox{
-    display: flex;
-    width: 300px;
-    height: 230px;
-    padding: 8px;
-    align-items: flex-start;
-    gap: 8px;
-    align-self: stretch;   
-    border: 1px solid var(--gray, #ABB2BF);
-    position: absolute;
-    top: 110%;
+.a3{
+    margin: 10px;
 
 }
-.procardtxt1{
-    color: var(--gray, #ABB2BF);
-    font-family: Fira Code;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;   
-    position: relative; 
-    top: -50%;
-}
-.procardtxt2{
-    color: var(--white, #FFF);
-    font-family: Fira Code;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal; 
-    position: relative;   
-    top: 15%;
-}
-.procardtxt3{
-    color: var(--gray, #ABB2BF);
-    font-family: Fira Code;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal; 
-    position: absolute;   
-    top: 35%;
-    left: 3%;
-    right: 4%;
-}
-.procardtxt4{
-    color: var(--white, #FFF);
-    font-family: Fira Code;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal; 
-    position: absolute;   
-    top: 20%;
-}
-.procard-btn{
-    display: flex;
-padding: 8px 16px;
-align-items: flex-start;
-gap: 10px;
-border: 1px solid var(--primary, #C778DD);
-background: transparent;
-position: absolute;
-top: 75%;
-right: 47%;
-}
-.procard2{
-    position: absolute;
-    top: 110%;
-    left: 33%;
-}
-.procard3{
-    position: absolute;
-    top: 110%;
-    left: 50%;
-}
-.procard4{
-    position: absolute;
-    top: 110%;
-    left: 67%;
-}
-.qsquare1{
-    width: 155px;
-    height: 155px;
-    flex-shrink: 0; 
-    border: 1px solid var(--gray, #ABB2BF);
-    position: absolute;
-    top: 110%;
-    left: 97%;
-}
-.skill{
-    position: absolute;
-    top: 150%;
-}
-.skillline{
-    height: 2px;
-    flex:1 0 0;
-    fill: var(--primary, #C778DD);
-    position: absolute;
-    left: 100%;
-    top: 10%;
-}
-.skillcard{
-    position: absolute;
-    top: 160%;
-    left: 46%;
-}
-.skillcard2{
-    position: absolute;
-    top: 160%;
-    left: 58%;
-}
-.skillcard3{
-    position: absolute;
-    top: 160%;
-    left: 71.2%;
-}
-.skillcard4{
-    position: absolute;
-    top: 180%;
-    left: 71.2%;
-}
-.skillcard5{
-    position: absolute;
-    top: 172%;
-    left: 58%;
-}
-.qsquare2{
-    width: 90px;
-    height: 90px;
-    flex-shrink: 0; 
-    border: 1px solid var(--gray, #ABB2BF);
-    position: absolute;
-    top: 157%;
-    left: 33%;
-}
-.qsquare3{
-    width: 60px;
-    height: 60px;
-    flex-shrink: 0; 
-    border: 1px solid var(--gray, #ABB2BF);
-    position: absolute;
-    top: 182%;
-    left: 37%;
-}
-.ellipse1{
-    display: flex;
-    width: 55px;
-    height: 65px;
-flex-direction: column;
-justify-content: space-between;
-align-items: flex-start;
-flex-shrink: 0;
-position: absolute;
-top: 158%;
-left: 19%;
+.a4{
+    margin: 10px;
 
 }
-.ellipse2{
-    display: flex;
-width: 50px;
-height: 60px;
-flex-direction: column;
-justify-content: space-between;
-align-items: flex-start;
-flex-shrink: 0;
-position: absolute;
-top: 173%;
-left: 29%;
-}
-.ellipse3{
-    display: flex;
-    width: 35px;
-    height: 90px;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-shrink: 0;
-    position: absolute;
-    top: 230%;
-    left: 99%;
-    transform: rotate(90deg);
-}   
-.slogo_1{
-    position: absolute;
-    top: 178%;
-    left: 19.5%; 
-}
-.skillcardtxt1{
-    color: var(--white, #ffffff);
-    font-family: Fira Code;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;   
-    position: relative; 
-    top: -50%;
-}
-.upperbox1{
-    display: flex;
-    width: 182px;
-    height: 30px;
-    padding: 8px;
-    align-items: flex-start;
-    gap: 8px;
-    align-self: stretch;   
-    border: 1px solid var(--gray, #ABB2BF); 
-    position: absolute;
-    top: 110%;
-}
-.lowerbox1{
-    display: flex;
-    width: 182px;
-    height: 87px;
-    padding: 8px;
-    align-items: flex-start;
-    gap: 8px;
-    align-self: stretch;   
-    border: 1px solid var(--gray, #ABB2BF);
-    position: absolute;
-    top: 110%;
+.a5{
+    margin: 10px;
 
-}
-.upperbox2{
-    display: flex;
-    width: 198px;
-    height: 30px;
-    padding: 8px;
-    align-items: flex-start;
-    gap: 8px;
-    align-self: stretch;   
-    border: 1px solid var(--gray, #ABB2BF); 
-    position: absolute;
-    top: 110%;
-}
-.lowerbox2{
-    display: flex;
-    width: 198px;
-    height: 87px;
-    padding: 8px;
-    align-items: flex-start;
-    gap: 8px;
-    align-self: stretch;   
-    border: 1px solid var(--gray, #ABB2BF);
-    position: absolute;
-    top: 110%;
-
-}
-.upperbox3{
-    display: flex;
-    width: 220px;
-    height: 30px;
-    padding: 8px;
-    align-items: flex-start;
-    gap: 8px;
-    align-self: stretch;   
-    border: 1px solid var(--gray, #ABB2BF); 
-    position: absolute;
-    top: 110%;
-}
-.lowerbox3{
-    display: flex;
-    width: 220px;
-    height: 160px;
-    padding: 8px;
-    align-items: flex-start;
-    gap: 8px;
-    align-self: stretch;   
-    border: 1px solid var(--gray, #ABB2BF);
-    position: absolute;
-    top: 110%;
-
-}
-.upperbox4{
-    display: flex;
-    width: 220px;
-    height: 30px;
-    padding: 8px;
-    align-items: flex-start;
-    gap: 8px;
-    align-self: stretch;   
-    border: 1px solid var(--gray, #ABB2BF); 
-    position: absolute;
-    top: 110%;
-}
-.lowerbox4{
-    display: flex;
-    width: 220px;
-    height: 160px;
-    padding: 8px;
-    align-items: flex-start;
-    gap: 8px;
-    align-self: stretch;   
-    border: 1px solid var(--gray, #ABB2BF);
-    position: absolute;
-    top: 110%;
-
-}
-.upperbox5{
-    display: flex;
-    width: 198px;
-    height: 30px;
-    padding: 8px;
-    align-items: flex-start;
-    gap: 8px;
-    align-self: stretch;   
-    border: 1px solid var(--gray, #ABB2BF); 
-    position: absolute;
-    top: 110%;
-}
-.lowerbox5{
-    display: flex;
-    width: 198px;
-    height: 87px;
-    padding: 8px;
-    align-items: flex-start;
-    gap: 8px;
-    align-self: stretch;   
-    border: 1px solid var(--gray, #ABB2BF);
-    position: absolute;
-    top: 110%;
-
-}
-.about-me{
-        position: absolute;
-        top: 202%;
-
-}
-.aboutmeline{
-    height: 2px;
-    flex:1 0 0;
-    fill: var(--primary, #C778DD);
-    position: absolute;
-    left: 110%;
-    top: 17%;
-    
-}
-.description{
-    width: 515px;
-    position: absolute;
-    top: 210%;
-}
-.descriptiontxt{
-    color: var(--gray, #ABB2BF);
-    font-family: Fira Code;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px; /* 162.5% */ 
-}
-.img_2{
-    position: absolute;
-    top: 205%;
-    left: 65%;
-
-}
-.aboutmeline2{
-    height: 2px;
-    flex:1 0 0;
-    fill: var(--primary, #C778DD);
-    position: absolute;
-    left: 9%;
-    top: 97%;
-    
-}
-.qsquare6{
-    width: 100px;
-    height: 150px;
-    flex-shrink: 0; 
-    border: 1px solid var(--gray, #ABB2BF);
-    position: absolute;
-    top: 220%;
-    left: -3%;
-}
-.ellipse4{
-    display: flex;
-    width: 90px;
-    height: 50px;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-shrink: 0;
-    position: absolute;
-    top: 235%;
-    left: 76.5%;
-}  
-.ellipse5{
-    display: flex;
-    width: 30px;
-    height: 60px;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-shrink: 0;
-    position: absolute;
-    top: 208%;
-    left: 67.5%;
-    transform: rotate(90deg);
-}
-.live_btn1{
-    display: inline-flex;
-    padding: 8px 16px;
-    align-items: flex-start;
-    gap: 10px;
-    border: 1px solid var(--primary, #C778DD);
-    background-color: transparent;
-    position: absolute;
-    top: 250%;
-}
-.contact-me{
-    position: absolute;
-    top: 270%;
-
-
-}
-.contactmeline{
-height: 2px;
-flex:1 0 0;
-fill: var(--primary, #C778DD);
-position: absolute;
-left: 110%;
-top: 17%;
-
-}
-.des{
-    width: 515px;
-    position: absolute;
-    top: 280%;
-}
-.destxt{
-    color: var(--gray, #ABB2BF);
-    font-family: Fira Code;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px; /* 162.5% */ 
-}
-.qsquare4{
-    width: 250px;
-    height: 130px;
-    flex-shrink: 0; 
-    border: 1px solid var(--gray, #ABB2BF);
-    position: absolute;
-    top: 288%;
-    left: 72%;
-}
-.username1{
-    color: var(--gray, #ABB2BF);
-    font-family: Fira Code;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px; /* 162.5% */ 
-    position: relative;
-    left: 20%;
-    bottom: 22%;
-}
-.username2{
-    color: var(--gray, #ABB2BF);
-    font-family: Fira Code;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px; /* 162.5% */ 
-    position: relative;
-    left: 20%;
-    bottom: 60%;
-}
-.ellipse6{
-    display: flex;
-    width: 80px;
-    height: 60px;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-shrink: 0;
-    position: absolute;
-    top: 277%;
-    left: -1%;
-    transform: rotate(90deg);
-}
-.footer{
-    position: absolute;
-    top: 320%;
-    left: -8%;
-    width: 2060px;
-}
-
-hr{
-    color: #ABB2BF;
-    height: 8px;
-    position: relative;
-    top: 10%;
-}
-.unlogo{
-    position: relative;
-    left: 6%;
-    top: 50%;
-}
-.destxt1{
-    color: var(--gray, #ABB2BF);
-    font-family: Fira Code;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px; /* 162.5% */ 
-    position: absolute;
-    left: 10%;
-    top: 5%;
-}
-.txt1{
-    color: var(--white, #FFF);
-font-family: Fira Code;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-position: absolute;
-top: 150%;
-}
-.txt2{
-    color: var(--white, #FFF);
-font-family: Fira Code;
-font-size: 27px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-position: relative;
-left: 8%;
-}
-.footleft{
-    margin-top: 16px;
-    position: absolute;
-    left: 80%;
-    top: 18%;
-}
-.logos{
-    margin-top: 8px;
-}
-.copywrite{
-    position: absolute;
-    left: 50%;
-    top: 210%;
-}
-.copywrite2{
-    position: absolute;
-    left: 50%;
-    top: 250%;
 }
 
 
+/* responsive */
+@media (max-width: 885px) {
+    header{
+        border-radius: 10px;
+    }
+    .nav-items{
+        margin:5px;
+        padding: 0px;
+        font-size: 12px;
+    }
+    .headh2{
+        font-size: 120%;
+        margin: 5px;
+        padding: 0px;
+    }
+    .grid-container{
+        grid-template-rows: minmax(30px auto);
+    }
 
 
+}
+
+@media (max-width: 680px){
+    header{
+        border-radius: 5px;
+    }
+    .headh2{
+        font-size: 120%;
+        margin: 5px;
+        padding: 0px;
+    }
+    .grid-container{
+        grid-template-rows: minmax(30px auto);
+    }
+    .a1{
+        display: none;
+    }
+    .a2{
+        display: none;
+    }
+    .a3{
+        display: none;
+    }
+    .a4{
+        display: none;
+    }
+    .a5{
+        display: none;
+    }
+    .menubar{
+        display: contents;
+    }
+
+}

@@ -121,12 +121,12 @@ header{
 .tagline{
     grid-column: 1/2;
     grid-row: 1/2;
-    
+
     margin-left: 80px;
     margin-top: 140px;
     font-family: Inter;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 38px;
     justify-self: center;
     align-items: center;
 }
@@ -151,7 +151,7 @@ header{
     color: white;
     /* justify-self: center;
     align-items: center; */
-    margin-left: 80px;
+    margin-left: 90px;
     margin-top: 240px;
     box-shadow: 0 60px 12px -18px rgb(0, 0, 0,0.1), 0 60px 20px -12px rgb(0, 0, 0, 0.1);
     animation: anime 1s infinite ease-in-out alternate;
@@ -176,14 +176,73 @@ header{
 }
 
 /* responsive */
-@media (max-width: 885px) {
+
+@media (max-width: 1520px){
+    .tagline{
+        margin-left: 50px;
+        font-size: 35px;
+    }
+    .welcomh1{
+        font-size: 60px;
+    }
+    .welcombtn{
+        max-width: 140px;
+        font-size: 18px;
+        margin-left: 80px;
+        border-radius: 30px;
+
+    }
+
+}
+@media (max-width: 1290px) {
+    .tagline{
+        margin-left: 40px;
+        font-size: 33px;
+    }
+    .welcomh1{
+        font-size: 58px;
+    }
+    .welcombtn{
+        max-width: 135px;
+        font-size: 16px;
+        border-radius: 25px;
+
+    }
+}
+@media (max-width: 1205px){
+    .grid-container{
+        grid-template-rows: minmax(10px, auto) minmax(620px, auto) minmax(720px, auto) minmax(1080px, auto) minmax(1080px, auto)  minmax(360px, auto) minmax(40px, auto);
+    }
+    .welcomh1{
+        margin-left: 20px;
+        font-size: 50px;
+    }
+    .tagline{
+        margin-left: 15px;
+        margin-top: 80px;
+        font-size: 26px;
+    }
+    .welcombtn{
+        max-width: 110px;
+        font-size: 14px;
+        margin-top: 180px;
+        /* margin-left: 35px; */
+    }
+}
+
+@media (max-width: 1024px){
+    .welcombtn{
+        margin-left: 35px;
+    }
+}
+@media (max-width: 886px) {
     header{
         border-radius: 10px;
     }
     .nav-items{
         margin:5px;
         padding: 0px;
-        font-size: 12px;
+        font-size: 14px;
     }
     .headh2{
         font-size: 120%;

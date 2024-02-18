@@ -87,6 +87,13 @@ header{
     justify-self: center;
     border-radius: 100px;
     box-shadow: 0 60px 12px -18px rgb(0, 0, 0,0.1), 0 60px 20px -12px rgb(0, 0, 0, 0.1);
+    animation: anime 1.5s infinite ease-in-out alternate;
+    -webkit-animation: anime 1.5s infinite ease-in-out alternate;
+
+}
+
+.ovelback:hover{
+    max-width: 65%;
 
 }
 .mypic1{
@@ -129,6 +136,7 @@ header{
     z-index: -1;
     max-width: 50%;
 }
+
 .welcombtn{
     grid-column: 1/2;
     background-color: rgb(163, 103, 177);
@@ -141,10 +149,30 @@ header{
     font-weight: bold;
     font-size: 20px;
     color: white;
-    justify-self: center;
-    align-items: center;
+    /* justify-self: center;
+    align-items: center; */
+    margin-left: 80px;
     margin-top: 240px;
+    box-shadow: 0 60px 12px -18px rgb(0, 0, 0,0.1), 0 60px 20px -12px rgb(0, 0, 0, 0.1);
+    animation: anime 1s infinite ease-in-out alternate;
+    -webkit-animation: anime 1s infinite ease-in-out alternate;
 
+}
+.welcombtn:hover{
+    background-color: white;
+    border: 1px solid rgb(163, 103, 177);
+    color: purple;
+}
+
+@keyframes anime {
+    100% {
+        transform: translateY(20px);
+        -webkit-transform: translateY(20px);
+        -moz-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        -o-transform: translateY(20px);
+        box-shadow: 0 40px 10px -18px rgba(0,0,0,0.2), 0 40px 16px -12px rgba(0,0,0,0.2);
+    }
 }
 
 /* responsive */
@@ -209,6 +237,8 @@ header{
         display: block;
         width: 38%;
         margin: none;
+        /* animation: anime 1s infinite ease-in-out alternate;
+        -webkit-animation: anime 1s infinite ease-in-out alternate; */
 
     }
 

@@ -30,8 +30,9 @@ header{
     align-self: left;
     margin: 10px;
     color: rgb(93, 53, 135);
-    font-family: Inria Sans;
+    font-family: Inter;
     font-weight: bolder;
+    text-shadow: 5px 2px 4px rgb(93, 53, 135, 25%);
 }
 .nav-items{
     margin: 5px;

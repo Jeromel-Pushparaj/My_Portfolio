@@ -159,7 +159,7 @@ header{
     font-weight: bold;
     font-size: 38px;
     justify-self: center;
-    align-items: center;
+    align-self: center;
 }
 .ovels{
     grid-column: 1/2;
@@ -190,6 +190,68 @@ header{
 
 }
 .welcombtn:hover{
+    background-color: white;
+    border: 1px solid rgb(163, 103, 177);
+    color: purple;
+}
+.aboutme{
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.abtpic{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: center;
+    justify-self: center;
+    max-width: 100%;
+}
+.abtdiv{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-rows: 1fr minmax(690px auto) 1fr;
+}
+.abth1{
+    grid-row: 1/2;
+    color: rgb(57, 36, 103);
+    font-family: Inter;
+    font-weight: bolder;
+    font-size: 64px;
+    text-shadow: 9px 2px 4px rgb(93, 53, 135, 25%);
+    margin-bottom: 0px;
+    justify-self: left;
+    align-self: left;
+
+}
+.abtp{
+    grid-row: 2/3;
+    font-family: Inter;
+    font-weight: medium;
+    font-size: 20px;
+    margin-bottom: 0px;
+    justify-self: left;
+    align-self: left;
+
+}
+.abtbtn{
+    grid-row: 3/4;
+    background-color: rgb(163, 103, 177);
+    max-width: 160px;
+    height: 50px;
+    border: 0px;
+    border-radius: 50px;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    box-shadow: 0 60px 12px -18px rgb(0, 0, 0,0.1), 0 60px 20px -12px rgb(0, 0, 0, 0.1);
+    animation: anime 1s infinite ease-in-out alternate;
+    -webkit-animation: anime 1s infinite ease-in-out alternate;
+    justify-self: left;
+    align-self: left;
+}
+.abtbtn:hover{
     background-color: white;
     border: 1px solid rgb(163, 103, 177);
     color: purple;
@@ -281,6 +343,40 @@ header{
         margin-left: 15px;
     }
 }
+@media (min-width: 1231px) and (max-width: 1455px){
+    .abtp{
+        font-size: 15px;
+    }
+    .abth1{
+        font-size: 60px;
+        justify-self: left;
+        align-self: center;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1230px){
+    .abth1{
+        font-size: 50px;
+        justify-self: left;
+        align-self: center;
+    }
+    .abtp{
+        font-size: 14px;
+        margin-top: 0px;
+        
+    }
+    .abtbtn{
+        justify-self: left;
+        align-self: start;
+    }
+    .abtpic{
+        margin-top: 40px;
+        max-width: 70%;
+
+    }
+    .grid-container{
+        grid-template-rows: minmax(10px, auto) minmax(620px, auto) minmax(120px, auto) minmax(1080px, auto) minmax(1080px, auto)  minmax(360px, auto) minmax(40px, auto);
+    }
+}
 
 @media (max-width: 1024px){
     .welcombtn{
@@ -343,6 +439,7 @@ header{
         max-width: 350px;
         margin-bottom: 70px;
     }
+
 }
 @media (max-width: 680px){
     header{

@@ -7,24 +7,33 @@
     <link rel="icon" href="images/image back ground ovel with pic.png" type="image/icon type">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href=responsive.css">
+    <script src="sidebar.js"></script>
 
 </head>
 <body>
     <div class="grid-container">
 
         <header>
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="#wel">Home</a>
+                <a href="#abt">aboutme</a>
+                <a href="#">Projects</a>
+                <a href="#">Skills</a>
+                <a href="">Contact me</a>
+            </div>
             <h2 class="headh2">Jeromel</h2>
             <div class="nav-items">
-            <span href="#" class="a1">Home</span>
-            <span href="#" class="a2">About me</span>
+            <a href="wel"><span href="#welcom" class="a1">Home</span></a>
+            <a href="#abt"><span class="a2">About me</span></a>
             <span href="#" class="a3">Projects</span>
             <span href="#" class="a4">Skills</span>
             <span href="#" class="a5">Contact me</span>
-            <img class="menubar" src="images/icons8-menu-64.png" alt="">
+            <button class="menubar" onclick="openNav()"><img class="micon" src="images/icons8-menu-64.png" alt=""></button>
         </div>
         </header>
 
-        <section class="welcom">
+        <section class="welcom" id="wel">
             <h1 class="welcomh1">Hi, I'm <br> Jeromel Pushparaj</h1>
             <p class="tagline">Aspiring Full Stack Web Developer</p>
             <img class="ovels" src="images/ovels.png" alt="">
@@ -32,7 +41,8 @@
             <button class="welcombtn">Download CV</button>
             <!-- <img class="mypic1" src="images/photo revomome 1.png" alt=""> -->
         </section>
-        <section class="aboutme">
+        <section class="aboutme" id="abt">
+            <h1 class="abth1m">About Me</h1>
             <div class="abtdiv">
                 <h1 class="abth1">About Me</h1>
             <p class="abtp">

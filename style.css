@@ -28,6 +28,9 @@ header{
 
 
 }
+a{
+    all: unset;
+}
 
 .headh2{
     justify-self: left;
@@ -224,6 +227,19 @@ header{
     align-self: left;
 
 }
+.abth1m{
+    display: none;
+    grid-row: 1/2;
+    color: rgb(57, 36, 103);
+    font-family: Inter;
+    font-weight: bolder;
+    font-size: 40px;
+    text-shadow: 9px 2px 4px rgb(93, 53, 135, 25%);
+    margin-bottom: 0px;
+    justify-self: center;
+    align-self: left;
+
+}
 .abtp{
     grid-row: 2/3;
     font-family: Inter;
@@ -256,6 +272,48 @@ header{
     border: 1px solid rgb(163, 103, 177);
     color: purple;
 }
+
+/* The sidebar menu */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    background-image: linear-gradient(100deg,rgba(255, 255, 255, 10%), rgb(93,53,235,15%)  );
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+}
+/* Sidebar links */
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(68, 31, 107);
+    font-size: 20px;
+    font-family: Inria Sans;
+    font-weight: bolder;
+    display: block;
+    transition: 0.3s;
+}
+.sidebar a:hover{
+    color: black;
+    text-shadow: 5px 2px 4px rgb(93, 53, 135, 25%);
+}
+
+/* Close button */
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
 
 @keyframes anime {
     100% {
@@ -395,6 +453,7 @@ header{
     .abtbtn{
         justify-self: left;
         align-self: start;
+        height: 40px;
     }
 
     .grid-container{
@@ -482,6 +541,7 @@ header{
     .abtbtn{
         justify-self: left;
         align-self: start;
+        height: 40px;
     }
 
     .grid-container{
@@ -528,15 +588,25 @@ header{
     .menubar{
         display: contents;
     }
+
     .menubar{
+        all: unset;
         display: block;
-        width: 38%;
+        max-width: 50px;
         margin: none;
         /* animation: anime 1s infinite ease-in-out alternate;
         -webkit-animation: anime 1s infinite ease-in-out alternate; */
 
     }
+    .micon{
+        width: 45%;
+    }
 
+}
+@media (min-width: 530px) and (max-width: 662px){
+    .abtp{
+        font-size: 15px;
+    }
 }
 
 @media (min-width: 437px) and (max-width: 662px){
@@ -577,18 +647,34 @@ header{
         grid-column: 1/3;
         grid-row: 1/2;
     }
+    .abth1{
+        display: none;
+    }
     .abtdiv{
-        grid-row: 2/3;
+        grid-row: 3/4;
         grid-column: 1/3;
+        grid-template-rows:minmax(690px auto) 1fr;
     }
     .abtpic{
-        grid-row: 1/2;
+        grid-row: 2/3;
         grid-column: 1/3;
         max-width: 55%;
         margin: 20px;
     }
     .abtp{
-        
+        font-size: 10px;
+        justify-self: center;
+    }
+    .abtbtn{
+        justify-self: center;
+        align-self: start;
+        height: 35px;
+    }
+    .aboutme{
+        grid-template-rows:minmax(100px, auto) 1fr 1fr;
+    }
+    .abth1m{
+        display: block;
     }
 }
 @media (min-width: 320px) and (max-width:437px){
@@ -629,5 +715,44 @@ header{
         grid-column: 1/3;
         grid-row: 1/2;
     }
+    .abth1{
+        display: none;
+    }
+    .abtdiv{
+        grid-row: 3/4;
+        grid-column: 1/3;
+        grid-template-rows:minmax(690px auto) 1fr;
+    }
+    .abtpic{
+        grid-row: 2/3;
+        grid-column: 1/3;
+        max-width: 55%;
+        margin: 20px;
+    }
+    .abtp{
+        font-size: 8px;
+        justify-self: center;
+    }
+    .abtbtn{
+        justify-self: center;
+        align-self: start;
+        max-width: 80px;
+        height: 30px;
+        border-radius: 22px;
+        font-size: 15px;
+    }
+    .aboutme{
+        grid-template-rows:minmax(100px, auto) 1fr 1fr;
+    }
+    .abth1m{
+        display: block;
+        font-size: 30px;
+        justify-self: center;
+        align-self: center;
+    }
 }
+
+html {
+    scroll-behavior: smooth;
+  }
 

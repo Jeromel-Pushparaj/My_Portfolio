@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href=responsive.css">
     <script src="sidebar.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
 
 </head>
 <body>
@@ -68,10 +70,26 @@ First and foremost, always remember, Jesus loves you. <br>
             </div>
             <img class="abtpic" src="images/aboutme pic.png" alt="">
         </section>
-        <section></section>
+        <section class="projects">
+            <!-- this is going to act as a container for the scroll snap -->
+            <div class="projectsn">
+                <div class="project1">project1</div>
+                <div class="project2">project2</div>
+                <div class="project3">project3</div>
+            </div>
+        </section>
         <section></section>
         <section></section>
         <footer></footer>
     </div>
 </body>
+
+<script>
+    ScrollReveal({reset: true});
+    ScrollReveal().reveal('.welcomh1', {delay: 200});
+    ScrollReveal().reveal('.tagline', {delay: 400})
+    ScrollReveal().reveal('.welcombtn', {delay: 600})
+    ScrollReveal().reveal('.ovelback',{delay: 500})
+</script>
+
 </html>

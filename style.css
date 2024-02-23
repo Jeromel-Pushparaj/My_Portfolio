@@ -607,6 +607,9 @@ a{
         margin-left:10px;
         padding: 0px;
     }
+    .welcombtn{
+        height: 40px;
+    }
     .grid-container{
         grid-template-rows: minmax(30px auto);
     }
@@ -721,6 +724,7 @@ a{
     .headh2{
         margin-left: 10px;
     }
+
     .ovelback{
         grid-column: 1/3;
         grid-row: 2/3;
@@ -751,6 +755,7 @@ a{
         font-size: 10px;
         align-self: left;
         justify-self: left;
+        
     
     }
     .ovels{
@@ -783,6 +788,7 @@ a{
         height: 30px;
         border-radius: 22px;
         font-size: 15px;
+        box-shadow: 0 60px 12px -4px rgb(0, 0, 0,0.1), 0 60px 20px -12px rgb(0, 0, 0, 0.1);
     }
     .aboutme{
         grid-template-rows:minmax(100px, auto) 1fr 1fr;

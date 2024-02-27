@@ -28,7 +28,7 @@
             <div class="nav-items">
             <a href="wel"><span href="#welcom" class="a1">Home</span></a>
             <a href="#abt"><span class="a2">About me</span></a>
-            <span href="#" class="a3">Projects</span>
+            <a href="#proj"><span href="#" class="a3">Projects</span></a>
             <span href="#" class="a4">Skills</span>
             <span href="#" class="a5">Contact me</span>
             <button class="menubar" onclick="openNav()"><img class="micon" src="images/icons8-menu-64.png" alt=""></button>
@@ -70,7 +70,7 @@ First and foremost, always remember, Jesus loves you. <br>
             </div>
             <img class="abtpic" src="images/aboutme pic.png" alt="">
         </section>
-        <section class="projects">
+        <section class="projects" id="#proj">
             <!-- this is going to act as a container for the scroll snap -->
             <div class="projectsn">
                 <div class="project1">project1</div>
@@ -85,7 +85,7 @@ First and foremost, always remember, Jesus loves you. <br>
 </body>
 
 <script>
-    ScrollReveal({reset: true});
+    
     ScrollReveal().reveal('.welcomh1', {delay: 200});
     ScrollReveal().reveal('.tagline', {delay: 400})
     ScrollReveal().reveal('.welcombtn', {delay: 600})
@@ -94,6 +94,8 @@ First and foremost, always remember, Jesus loves you. <br>
     ScrollReveal().reveal('.abth1', {delay: 400})
     ScrollReveal().reveal('.abtp', {delay: 600})
     ScrollReveal().reveal('.abtbtn',{delay: 500})
+    ScrollReveal().reveal('.headh2',{delay: 100})
+    ScrollReveal().reveal('.nav-items',{delay: 150})
 </script>
 
 </html>

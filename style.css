@@ -137,6 +137,7 @@ a{
     margin-top: 220px;
     align-self: center;
     justify-self: center;
+
     
 
 }
@@ -319,10 +320,272 @@ a{
 
 .projects{
     grid-column: span 3;
-    background-image: linear-gradient(100deg , rgb(93,53,235,15%)  ,rgb(190,0,234,0%));
+    background-image: linear-gradient(360deg , rgb(93,53,235,10%)  ,rgb(190,0,234,0%));
     border-radius: 15px;
     justify-content: center;
     align-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 1fr 150px;
+}
+.projt{
+    grid-row: 1/2;
+    grid-column: span 2;
+    justify-self: center;
+    align-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+}
+.projh1{
+    color: rgb(57, 36, 103);
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 70px;
+    text-shadow: 9px 2px 4px rgb(93, 53, 135, 25%);
+    margin: 0px;
+    justify-self: center;
+    align-self: center;
+}
+.projl1{
+    all: unset;
+    border-top: 2px solid rgb(57, 36, 103);
+    width: 80%;
+    justify-self: right;
+    align-self: center;
+
+
+}
+.projl2{
+    all: unset;
+    border-top: 2px solid rgb(57, 36, 103);
+    width: 80%;
+    justify-self: left;
+    align-self: center;
+}
+
+.projc{
+    grid-column: span 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
+}
+.vsc-controller{
+    display: none;
+}
+.projc1{
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.projv1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    justify-self: center;
+    align-self: center;
+    border: 10px solid rgb(164, 135, 227);
+    border-radius: 50px;
+    box-shadow: 0 60px 12px -18px rgb(0, 0, 0,0.1), 0 60px 20px -12px rgb(0, 0, 0, 0.1);
+    animation: anime 1.5s infinite ease-in-out alternate;
+    -webkit-animation: anime 1.5s infinite ease-in-out alternate;
+    
+}
+.projd1{
+        grid-row: 1/2;
+        grid-column: 2/3;
+        align-self: center;
+}
+.projt1{
+    color: rgb(57, 36, 103);
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 55px;
+    text-shadow: 9px 2px 4px rgb(93, 53, 135, 25%);
+    margin: 0px;
+}
+.projst1{
+    color: black;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 9px 2px 4px rgb(93, 53, 135, 25%);
+    margin: 0px;
+}
+.projp1{
+    font-family: Inter;
+    font-size: 20px;
+}
+.projbtn1{
+    background-color: rgb(163, 103, 177);
+    max-width: 160px;
+    height: 50px;
+    border: 0px;
+    border-radius: 50px;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    box-shadow: 0 60px 12px -18px rgb(0, 0, 0,0.1), 0 60px 20px -12px rgb(0, 0, 0, 0.1);
+    animation: anime 1s infinite ease-in-out alternate;
+    -webkit-animation: anime 1s infinite ease-in-out alternate;
+
+}
+.projbtn1:hover{
+    background-color: white;
+    border: 1px solid rgb(163, 103, 177);
+    color: purple;
+}
+.projc2{
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.projv2{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    justify-self: center;
+    align-self: center;
+    border: 10px solid rgb(164, 135, 227);
+    border-radius: 50px;
+    box-shadow: 0 60px 12px -18px rgb(0, 0, 0,0.1), 0 60px 20px -12px rgb(0, 0, 0, 0.1);
+    animation: anime 1.5s infinite ease-in-out alternate;
+    -webkit-animation: anime 1.5s infinite ease-in-out alternate;
+}
+.projd2{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    align-self: center;
+    justify-self: center;
+}
+.projt2{
+    color: rgb(57, 36, 103);
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 9px 2px 4px rgb(93, 53, 135, 25%);
+    margin: 0px;
+    margin-top: 50px;
+}
+.projst2{
+    color: black;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 9px 2px 4px rgb(93, 53, 135, 25%);
+    margin: 0px;
+}
+.projp2{
+    font-family: Inter;
+    font-size: 18px;
+}
+.projbtn2{
+    background-color: rgb(163, 103, 177);
+    max-width: 160px;
+    height: 50px;
+    border: 0px;
+    border-radius: 50px;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    box-shadow: 0 60px 12px -18px rgb(0, 0, 0,0.1), 0 60px 20px -12px rgb(0, 0, 0, 0.1);
+    animation: anime 1s infinite ease-in-out alternate;
+    -webkit-animation: anime 1s infinite ease-in-out alternate;
+
+}
+.projbtn2:hover{
+    background-color: white;
+    border: 1px solid rgb(163, 103, 177);
+    color: purple;
+}
+.projc3{
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.projv3{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    justify-self: center;
+    align-self: center;
+    border: 10px solid rgb(164, 135, 227);
+    border-radius: 50px;
+    box-shadow: 0 60px 12px -18px rgb(0, 0, 0,0.1), 0 60px 20px -12px rgb(0, 0, 0, 0.1);
+    animation: anime 1.5s infinite ease-in-out alternate;
+    -webkit-animation: anime 1.5s infinite ease-in-out alternate;
+}
+.projd3{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    align-self: center;
+    justify-self: center;
+}
+.projt3{
+    color: rgb(57, 36, 103);
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 9px 2px 4px rgb(93, 53, 135, 25%);
+    margin: 0px;
+    margin-top: 50px;
+}
+.projst3{
+    color: black;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 9px 2px 4px rgb(93, 53, 135, 25%);
+    margin: 0px;
+}
+.projp3{
+    font-family: Inter;
+    font-size: 18px;
+}
+.projbtn3{
+    background-color: rgb(163, 103, 177);
+    max-width: 160px;
+    height: 50px;
+    border: 0px;
+    border-radius: 50px;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    box-shadow: 0 60px 12px -18px rgb(0, 0, 0,0.1), 0 60px 20px -12px rgb(0, 0, 0, 0.1);
+    animation: anime 1s infinite ease-in-out alternate;
+    -webkit-animation: anime 1s infinite ease-in-out alternate;
+
+}
+.projbtn3:hover{
+    background-color: white;
+    border: 1px solid rgb(163, 103, 177);
+    color: purple;
+}
+.projbtn{
+    grid-column: span 2;
+    justify-self: center;
+    align-self: end;
+    margin-bottom: 20px;
+    margin-right: 130px;
+    max-width: 160px;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 20px;
+    background:none;
+    color: rgb(57, 36, 103);
+    text-shadow: 9px 2px 4px rgb(93, 53, 135, 25%);
+    box-shadow: 9px 10px 4px rgb(93, 53, 135, 25%);
+    border-top: 2px solid rgb(93, 53, 135, 25%);
+    border-right: 1px solid rgb(93, 53, 135, 25%);
+    border-left: 1px solid rgb(93, 53, 135, 25%);
+    border-bottom: 0px;
+}
+.projbtn:hover{
+    background-color: rgb(163, 103, 177);
+    color: white;
 }
 
 

@@ -605,7 +605,66 @@ a{
 .projdd3{
     display: none;
 }
-
+.projdbtn1{
+    display: none;
+    background-color: rgb(163, 103, 177);
+    max-width: 160px;
+    height: 50px;
+    border: 0px;
+    border-radius: 50px;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    box-shadow: 0 60px 12px -18px rgb(0, 0, 0,0.1), 0 60px 20px -12px rgb(0, 0, 0, 0.1);
+    animation: anime 1s infinite ease-in-out alternate;
+    -webkit-animation: anime 1s infinite ease-in-out alternate;
+}
+.projdbtn1:hover{
+    background-color: white;
+    border: 1px solid rgb(163, 103, 177);
+    color: purple;
+}
+.projdbtn2{
+    display: none;
+    background-color: rgb(163, 103, 177);
+    max-width: 160px;
+    height: 50px;
+    border: 0px;
+    border-radius: 50px;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    box-shadow: 0 60px 12px -18px rgb(0, 0, 0,0.1), 0 60px 20px -12px rgb(0, 0, 0, 0.1);
+    animation: anime 1s infinite ease-in-out alternate;
+    -webkit-animation: anime 1s infinite ease-in-out alternate;
+}
+.projdbtn2:hover{
+    background-color: white;
+    border: 1px solid rgb(163, 103, 177);
+    color: purple;
+}
+.projdbtn3{
+    display: none;
+    background-color: rgb(163, 103, 177);
+    max-width: 160px;
+    height: 50px;
+    border: 0px;
+    border-radius: 50px;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    box-shadow: 0 60px 12px -18px rgb(0, 0, 0,0.1), 0 60px 20px -12px rgb(0, 0, 0, 0.1);
+    animation: anime 1s infinite ease-in-out alternate;
+    -webkit-animation: anime 1s infinite ease-in-out alternate;
+}
+.projdbtn3:hover{
+    background-color: white;
+    border: 1px solid rgb(163, 103, 177);
+    color: purple;
+}
 
 
 @keyframes anime {
@@ -1236,159 +1295,6 @@ a{
     .abtp{
         font-size: 15px;
     }
-
-    .projd1{
-        display: none;
-    }
-    .projd2{
-        display: none;
-    }
-    .projd3{
-        display: none;
-    }
-    .projc1{
-        grid-template-rows: 80px 300px 50px;
-        margin-bottom: 20px;
-    }
-    .projc2{
-        grid-template-rows: 80px 300px 80px;
-        margin-bottom: 20px;
-    }
-    .projc3{
-        grid-template-rows: 80px 300px 80px;
-        margin-bottom: 20px;
-    }
-
-    .projdt1{
-        grid-row: 1/2;
-        grid-column: span 2;
-        display: block;
-        justify-self: center;
-        align-self: center;
-    }
-    .projdd1{
-        display: block;
-        grid-row: 3/4;
-        grid-column: span 2;
-        justify-self: center;
-        align-self: center;
-    }
-    .projdt2{
-        grid-row: 1/2;
-        grid-column: span 2;
-        display: block;
-        justify-self: center;
-        align-self: center;
-    }
-    .projdd2{
-        display: block;
-        grid-row: 3/4;
-        grid-column: span 2;
-        justify-self: center;
-        align-self: center;
-    }
-    .projdt3{
-        grid-row: 1/2;
-        grid-column: span 2;
-        display: block;
-        justify-self: center;
-        align-self: center;
-    }
-    .projdd3{
-        display: block;
-        grid-row: 3/4;
-        grid-column: span 2;
-        justify-self: center;
-        align-self: center;
-    }
-    .projh1{
-        font-size: 40px;
-    }
-    .projl1{
-        width: 65%;
-    }
-    .projl2{
-        width: 65%;
-    }
-    .projv1{
-        max-width: 60%;
-        border-radius: 40px;
-        grid-row: 2/3;
-        grid-column: span 2;
-    }
-    .projt1{
-        font-size: 25px;
-    }
-    .projst1{
-        font-size: 22px;
-    }
-    .projp1{
-        font-size: 12px;
-    }
-    .projbtn1{
-        max-width: 100px;
-        font-size: 15px;
-        height: 38px;
-        grid-column: span 2;
-        justify-self: center;
-        align-self: center;
-    }
-    .projv2{
-        max-width: 60%;
-        border-radius: 40px;
-        grid-row: 2/3;
-        grid-column: span 2;
-    }
-    .projt2{
-        font-size: 22px;
-    }
-    .projst2{
-        font-size: 22px;
-    }
-
-    .projp2{
-        font-size: 10px;
-    }
-    .projbtn2{
-        max-width: 100px;
-        font-size: 15px;
-        height: 38px;
-        grid-column: span 2;
-        justify-self: center;
-        align-self: center;
-    }
-    .projv3{
-        max-width: 60%;
-        border-radius: 40px;
-        grid-row: 2/3;
-        grid-column: span 2;
-    }
-    .projt3{
-        font-size: 22px;
-    }
-    .projst3{
-        font-size: 18px;
-
-    }
-    .projp3{
-        font-size: 8.5px;
-    }
-    .projbtn3{
-        max-width: 100px;
-        font-size: 15px;
-        height: 38px;
-        grid-column: span 2;
-        justify-self: center;
-        align-self: center;
-    }
-    .projbtn{
-        max-width: 100px;
-        font-size: 15px;
-        height: 38px;
-        grid-column: span 2;
-        justify-self: center;
-        align-self: center;
-    }
 }
 
 @media (min-width: 437px) and (max-width: 662px){
@@ -1460,8 +1366,170 @@ a{
     .abth1m{
         display: block;
     }
+        .projd1{
+            display: none;
+        }
+        .projd2{
+            display: none;
+        }
+        .projd3{
+            display: none;
+        }
+        .projc1{
+            grid-template-rows: 80px 300px 50px;
+            margin-bottom: 20px;
+        }
+        .projc2{
+            grid-template-rows: 80px 300px 80px;
+            margin-bottom: 20px;
+        }
+        .projc3{
+            grid-template-rows: 80px 300px 80px;
+            margin-bottom: 20px;
+        }
+    
+        .projdt1{
+            grid-row: 1/2;
+            grid-column: span 2;
+            display: block;
+            justify-self: center;
+            align-self: center;
+        }
+        .projdd1{
+            display: block;
+            grid-row: 3/4;
+            grid-column: span 2;
+            justify-self: center;
+            align-self: center;
+        }
+        .projdt2{
+            grid-row: 1/2;
+            grid-column: span 2;
+            display: block;
+            justify-self: center;
+            align-self: center;
+        }
+        .projdd2{
+            display: block;
+            grid-row: 3/4;
+            grid-column: span 2;
+            justify-self: center;
+            align-self: center;
+        }
+        .projdt3{
+            grid-row: 1/2;
+            grid-column: span 2;
+            display: block;
+            justify-self: center;
+            align-self: center;
+        }
+        .projdd3{
+            display: block;
+            grid-row: 3/4;
+            grid-column: span 2;
+            justify-self: center;
+            align-self: center;
+        }
+        .projh1{
+            font-size: 30px;
+            margin-left: 10px;
+        margin-right: 10px;
+        }
+        .projl1{
+            width: 60%;
+        }
+        .projl2{
+            width: 60%;
+        }
+        .projv1{
+            max-width: 60%;
+            border-radius: 40px;
+            grid-row: 2/3;
+            grid-column: span 2;
+        }
+        .projt1{
+            font-size: 25px;
+        }
+        .projst1{
+            font-size: 22px;
+        }
+        .projp1{
+            font-size: 12px;
+        }
+        .projdbtn1{
+            display: block;
+            max-width: 160px;
+            font-size: 15px;
+            height: 38px;
+            grid-column: span 2;
+            justify-self: center;
+            align-self: center;
+        }
+        .projv2{
+            max-width: 60%;
+            border-radius: 40px;
+            grid-row: 2/3;
+            grid-column: span 2;
+        }
+        .projt2{
+            font-size: 22px;
+        }
+        .projst2{
+            font-size: 22px;
+        }
+    
+        .projp2{
+            font-size: 12px;
+        }
+        .projdbtn2{
+            display: block;
+            max-width: 160px;
+            font-size: 15px;
+            height: 38px;
+            grid-column: span 2;
+            justify-self: center;
+            align-self: center;
+        }
+        .projv3{
+            max-width: 60%;
+            border-radius: 40px;
+            grid-row: 2/3;
+            grid-column: span 2;
+        }
+        .projt3{
+            font-size: 22px;
+        }
+        .projst3{
+            font-size: 18px;
+    
+        }
+        .projp3{
+            font-size: 11px;
+        }
+        .projdbtn3{
+            display: block;
+            max-width: 160px;
+            font-size: 15px;
+            height: 38px;
+            grid-column: span 2;
+            justify-self: center;
+            align-self: center;
+        }
+        .projbtn{
+            max-width: 100px;
+            font-size: 15px;
+            height: 38px;
+            grid-column: span 2;
+            margin: 0px;
+            margin-bottom: 20px;
+            align-self: center;
+    
+        }
+    
+    
 }
-@media (min-width: 320px) and (max-width:437px){
+
+@media (min-width: 320px) and (max-width:436px){
     .headh2{
         margin-left: 10px;
     }
@@ -1541,6 +1609,178 @@ a{
         font-size: 30px;
         justify-self: center;
         align-self: center;
+    }
+    .projc1{
+        grid-template-rows: 80px 150px 50px;
+        margin-bottom: 20px;
+    }
+    .projc2{
+        grid-template-rows: 80px 150px 80px;
+        margin-bottom: 20px;
+    }
+    .projc3{
+        grid-template-rows: 80px 150px 80px;
+        margin-bottom: 20px;
+    }
+
+    .projd1{
+        display: none;
+    }
+    .projd2{
+        display: none;
+    }
+    .projd3{
+        display: none;
+    }
+    .projc1{
+        grid-template-rows: 80px 300px 50px;
+        margin-bottom: 20px;
+    }
+    .projc2{
+        grid-template-rows: 80px 300px 80px;
+        margin-bottom: 20px;
+    }
+    .projc3{
+        grid-template-rows: 80px 300px 80px;
+        margin-bottom: 20px;
+    }
+
+    .projdt1{
+        grid-row: 1/2;
+        grid-column: span 2;
+        display: block;
+        justify-self: center;
+        align-self: center;
+    }
+    .projdd1{
+        display: block;
+        grid-row: 3/4;
+        grid-column: span 2;
+        justify-self: center;
+        align-self: center;
+    }
+    .projdt2{
+        grid-row: 1/2;
+        grid-column: span 2;
+        display: block;
+        justify-self: center;
+        align-self: center;
+    }
+    .projdd2{
+        display: block;
+        grid-row: 3/4;
+        grid-column: span 2;
+        justify-self: center;
+        align-self: center;
+    }
+    .projdt3{
+        grid-row: 1/2;
+        grid-column: span 2;
+        display: block;
+        justify-self: center;
+        align-self: center;
+    }
+    .projdd3{
+        display: block;
+        grid-row: 3/4;
+        grid-column: span 2;
+        justify-self: center;
+        align-self: center;
+    }
+    .projh1{
+        font-size: 25px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .projl1{
+        width: 60%;
+    }
+    .projl2{
+        width: 60%;
+    }
+    .projv1{
+        max-width: 75%;
+        border-radius: 40px;
+        grid-row: 2/3;
+        grid-column: span 2;
+    }
+    .projt1{
+        font-size: 20px;
+    }
+    .projst1{
+        font-size: 18px;
+    }
+    .projp1{
+        font-size: 9px;
+    }
+    .projdbtn1{
+        display: block;
+        max-width: 80px;
+        font-size: 10px;
+        height: 35px;
+        grid-column: span 2;
+        justify-self: center;
+        align-self: center;
+    }
+    .projv2{
+        max-width: 75%;
+        border-radius: 40px;
+        grid-row: 2/3;
+        grid-column: span 2;
+    }
+    .projt2{
+        font-size: 20px;
+    }
+    .projst2{
+        font-size: 18px;
+    }
+
+    .projp2{
+        font-size: 9px;
+    }
+    .projdbtn2{
+        display: block;
+        max-width: 80px;
+        font-size: 10px;
+        height: 35px;
+        grid-column: span 2;
+        justify-self: center;
+        align-self: center;
+    }
+    .projv3{
+        max-width: 75%;
+        border-radius: 40px;
+        grid-row: 2/3;
+        grid-column: span 2;
+    }
+    .projt3{
+        font-size: 20px;
+    }
+    .projst3{
+        font-size: 16px;
+
+    }
+    .projp3{
+        font-size: 8px;
+    }
+    .projdbtn3{
+        display: block;
+        max-width: 80px;
+        font-size: 10px;
+        height: 35px;
+        grid-column: span 2;
+        justify-self: center;
+        align-self: center;
+    }
+    .projbtn{
+        max-width: 100px;
+        font-size: 15px;
+        height: 38px;
+        grid-column: span 2;
+        margin: 0px;
+        margin-bottom: 20px;
+        align-self: center;
+
     }
 }
 

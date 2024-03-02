@@ -443,7 +443,7 @@ a{
     grid-template-columns: 1fr 1fr;
 }
 .projv2{
-    grid-row: 2/3;
+    grid-row: 1/2;
     grid-column: 2/3;
     justify-self: center;
     align-self: center;
@@ -454,7 +454,7 @@ a{
     -webkit-animation: anime 1.5s infinite ease-in-out alternate;
 }
 .projd2{
-    grid-row: 2/3;
+    grid-row: 1/2;
     grid-column: 1/2;
     align-self: center;
     justify-self: center;
@@ -685,6 +685,46 @@ a{
         justify-self: left;
         align-self: center;
     }
+    .projh1{
+        font-size: 65px;
+    }
+    .projv1{
+        max-width: 70%;
+    }
+    .projt1{
+        font-size: 45px;
+    }
+    .projst1{
+        font-size: 28px;
+    }
+    .projp1{
+        font-size: 18px;
+    }
+    .projv2{
+        max-width: 70%;
+    }
+    .projt2{
+        font-size: 40px;
+    }
+    .projst2{
+        font-size: 28px;
+    }
+
+    .projp2{
+        font-size: 18px;
+    }
+    .projv3{
+        max-width: 70%;
+    }
+    .projt3{
+        font-size: 40px;
+    }
+    .projst3{
+        font-size: 28px;
+    }
+    .projp3{
+        font-size: 15px;
+    }
 }
 @media (min-width: 1024px) and (max-width: 1230px){
     .abth1{
@@ -708,6 +748,69 @@ a{
     }
     .grid-container{
         grid-template-rows: minmax(10px, auto) minmax(620px, auto) minmax(120px, auto) minmax(1080px, auto) minmax(1080px, auto)  minmax(360px, auto) minmax(40px, auto);
+    }
+    .projh1{
+        font-size: 60px;
+    }
+    .projl1{
+        width: 70%;
+    }
+    .projl2{
+        width: 70%;
+    }
+    .projv1{
+        max-width: 60%;
+    }
+    .projt1{
+        font-size: 35px;
+    }
+    .projst1{
+        font-size: 26px;
+    }
+    .projp1{
+        font-size: 15px;
+    }
+    .projbtn1{
+        max-width: 130px;
+        height: 45px;
+    }
+    .projv2{
+        max-width: 60%;
+    }
+    .projt2{
+        font-size: 30px;
+    }
+    .projst2{
+        font-size: 26px;
+    }
+
+    .projp2{
+        font-size: 15px;
+    }
+    .projbtn2{
+        max-width: 130px;
+        height: 45px;
+    }
+    .projv3{
+        max-width: 60%;
+    }
+    .projt3{
+        font-size: 35px;
+    }
+    .projst3{
+        font-size: 26px;
+    }
+    .projp3{
+        font-size: 13.2px;
+    }
+    .projbtn3{
+        max-width: 130px;
+        height: 45px;
+    }
+    .projbtn{
+        max-width: 130px;
+        font-size: 22px;
+        margin-right: 100px;
     }
 }
 @media (min-width: 968px) and (max-width: 1023px){
@@ -734,6 +837,75 @@ a{
     .grid-container{
         grid-template-rows: minmax(10px, auto) minmax(620px, auto) minmax(120px, auto) minmax(1080px, auto) minmax(1080px, auto)  minmax(360px, auto) minmax(40px, auto);
     }
+    .projh1{
+        font-size: 55px;
+    }
+    .projl1{
+        width: 60%;
+    }
+    .projl2{
+        width: 60%;
+    }
+    .projv1{
+        max-width: 55%;
+        border-radius: 40px;
+    }
+    .projt1{
+        font-size: 30px;
+    }
+    .projst1{
+        font-size: 24px;
+    }
+    .projp1{
+        font-size: 14px;
+    }
+    .projbtn1{
+        max-width: 120px;
+        font-size: 18px;
+        height: 40px;
+    }
+    .projv2{
+        max-width: 55%;
+        border-radius: 40px;
+    }
+    .projt2{
+        font-size: 30px;
+    }
+    .projst2{
+        font-size: 24px;
+    }
+
+    .projp2{
+        font-size: 14px;
+    }
+    .projbtn2{
+        max-width: 120px;
+        font-size: 18px;
+        height: 40px;
+    }
+    .projv3{
+        max-width: 55%;
+        border-radius: 40px;
+    }
+    .projt3{
+        font-size: 30px;
+    }
+    .projst3{
+        font-size: 22px;
+    }
+    .projp3{
+        font-size: 12px;
+    }
+    .projbtn3{
+        max-width: 120px;
+        font-size: 18px;
+        height: 40px;
+    }
+    .projbtn{
+        max-width: 130px;
+        font-size: 22px;
+        margin-right: 100px;
+    }
 }
 @media (max-width: 1024px){
     .welcombtn{
@@ -757,6 +929,97 @@ a{
     .grid-container{
         grid-template-rows: minmax(30px auto);
     }
+    .abth1{
+        font-size: 40px;
+        justify-self: left;
+        align-self: end;
+        margin-top: 0px;
+    }
+    .abtp{
+        font-size: 8px;
+        justify-self: left;
+        align-self: center;
+        margin-top: 0px;
+    }
+    .abtpic{
+        max-width: 68%;
+        margin-top: 0px;
+    }
+    .abtbtn{
+        justify-self: left;
+        align-self: start;
+        height: 40px;
+    }
+    .projh1{
+        font-size: 55px;
+    }
+    .projl1{
+        width: 60%;
+    }
+    .projl2{
+        width: 60%;
+    }
+    .projv1{
+        max-width: 55%;
+        border-radius: 40px;
+    }
+    .projt1{
+        font-size: 30px;
+    }
+    .projst1{
+        font-size: 24px;
+    }
+    .projp1{
+        font-size: 14px;
+    }
+    .projbtn1{
+        max-width: 120px;
+        font-size: 18px;
+        height: 40px;
+    }
+    .projv2{
+        max-width: 55%;
+        border-radius: 40px;
+    }
+    .projt2{
+        font-size: 30px;
+    }
+    .projst2{
+        font-size: 24px;
+    }
+
+    .projp2{
+        font-size: 14px;
+    }
+    .projbtn2{
+        max-width: 120px;
+        font-size: 18px;
+        height: 40px;
+    }
+    .projv3{
+        max-width: 55%;
+        border-radius: 40px;
+    }
+    .projt3{
+        font-size: 30px;
+    }
+    .projst3{
+        font-size: 22px;
+    }
+    .projp3{
+        font-size: 12px;
+    }
+    .projbtn3{
+        max-width: 120px;
+        font-size: 18px;
+        height: 40px;
+    }
+    .projbtn{
+        max-width: 130px;
+        font-size: 22px;
+        margin-right: 100px;
+    }
+
 
 
 }
@@ -822,6 +1085,76 @@ a{
     .grid-container{
         grid-template-rows: minmax(10px, auto) minmax(620px, auto) minmax(120px, auto) minmax(1080px, auto) minmax(1080px, auto)  minmax(360px, auto) minmax(40px, auto);
     }
+    .projh1{
+        font-size: 45px;
+    }
+    .projl1{
+        width: 55%;
+    }
+    .projl2{
+        width: 55%;
+    }
+    .projv1{
+        max-width: 80%;
+        border-radius: 40px;
+    }
+    .projt1{
+        font-size: 25px;
+    }
+    .projst1{
+        font-size: 22px;
+    }
+    .projp1{
+        font-size: 12px;
+    }
+    .projbtn1{
+        max-width: 100px;
+        font-size: 15px;
+        height: 38px;
+    }
+    .projv2{
+        max-width: 80%;
+        border-radius: 40px;
+    }
+    .projt2{
+        font-size: 22px;
+    }
+    .projst2{
+        font-size: 22px;
+    }
+
+    .projp2{
+        font-size: 10px;
+    }
+    .projbtn2{
+        max-width: 100px;
+        font-size: 15px;
+        height: 38px;
+    }
+    .projv3{
+        max-width: 80%;
+        border-radius: 40px;
+    }
+    .projt3{
+        font-size: 22px;
+    }
+    .projst3{
+        font-size: 18px;
+    }
+    .projp3{
+        font-size: 8.5px;
+    }
+    .projbtn3{
+        max-width: 100px;
+        font-size: 15px;
+        height: 38px;
+    }
+    .projbtn{
+        max-width: 100px;
+        font-size: 15px;
+        height: 35px;
+        margin-right: 35px;
+    }
 
 }
 @media (max-width: 680px){
@@ -884,6 +1217,76 @@ a{
 @media (min-width: 530px) and (max-width: 662px){
     .abtp{
         font-size: 15px;
+    }
+    .projh1{
+        font-size: 45px;
+    }
+    .projl1{
+        width: 55%;
+    }
+    .projl2{
+        width: 55%;
+    }
+    .projv1{
+        max-width: 80%;
+        border-radius: 40px;
+    }
+    .projt1{
+        font-size: 25px;
+    }
+    .projst1{
+        font-size: 22px;
+    }
+    .projp1{
+        font-size: 12px;
+    }
+    .projbtn1{
+        max-width: 100px;
+        font-size: 15px;
+        height: 38px;
+    }
+    .projv2{
+        max-width: 80%;
+        border-radius: 40px;
+    }
+    .projt2{
+        font-size: 22px;
+    }
+    .projst2{
+        font-size: 22px;
+    }
+
+    .projp2{
+        font-size: 10px;
+    }
+    .projbtn2{
+        max-width: 100px;
+        font-size: 15px;
+        height: 38px;
+    }
+    .projv3{
+        max-width: 80%;
+        border-radius: 40px;
+    }
+    .projt3{
+        font-size: 22px;
+    }
+    .projst3{
+        font-size: 18px;
+    }
+    .projp3{
+        font-size: 8.5px;
+    }
+    .projbtn3{
+        max-width: 100px;
+        font-size: 15px;
+        height: 38px;
+    }
+    .projbtn{
+        max-width: 100px;
+        font-size: 15px;
+        height: 35px;
+        margin-right: 35px;
     }
 }
 

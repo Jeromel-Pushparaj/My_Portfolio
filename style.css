@@ -665,6 +665,52 @@ a{
     border: 1px solid rgb(163, 103, 177);
     color: purple;
 }
+.skills{
+    grid-column: span 3;
+    border-radius: 15px;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 1fr;
+    margin-top: 20px;
+}
+.skt{
+    grid-row: 1/2;
+    grid-column: span 3;
+    justify-self: center;
+    align-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+}
+.skh1{
+    color: rgb(57, 36, 103);
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 70px;
+    text-shadow: 9px 2px 4px rgb(93, 53, 135, 25%);
+    margin: 0px;
+    justify-self: center;
+    align-self: center;
+}
+.skl1{
+    all: unset;
+    border-top: 2px solid rgb(57, 36, 103);
+    width: 80%;
+    justify-self: right;
+    align-self: center;
+
+
+}
+.skl2{
+    all: unset;
+    border-top: 2px solid rgb(57, 36, 103);
+    width: 80%;
+    justify-self: left;
+    align-self: center;
+}
 
 
 @keyframes anime {

@@ -152,3 +152,136 @@
     text-shadow: 9px 2px 4px rgb(93, 53, 135, 25%);
     margin: 0px;
 }
+
+.bcard{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    width: 300px;
+    height: 400px;
+    justify-self: center;
+    align-self: center;
+    background-image: linear-gradient(360deg , rgb(93,53,235,10%)  ,rgb(190,0,234,0%));;
+    margin: 0 auto;
+    padding: 10px;
+    border-top: 2px solid rgb(93, 53, 135, 25%);
+    border-right: 1px solid rgb(93, 53, 135, 25%);
+    border-left: 1px solid rgb(93, 53, 135, 25%);
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(149, 40, 200, 0.285);
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+.ch1{
+    grid-row: span 3;
+    align-self: center;
+    justify-self: center;
+    color: rgb(57, 36, 103);
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 9px 2px 4px rgb(93, 53, 135, 25%);
+    margin: 0px;
+}
+.bcard:hover .ch1{
+    opacity: 0.2;
+}
+
+.bcard:hover {
+    transform: scale(1.05);
+}
+
+
+.bcard .card-con {
+    margin: 0px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgb(93,53,235,10%)  ,rgb(190,0,234,0%) 100%);
+    backdrop-filter: blur(3px);
+    transition: 0.5s ease-in-out;
+    z-index: 1;
+    bottom: -100%;
+    border-radius: 20px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+    
+}
+.bcard:hover .card-con {
+    bottom: 0;
+
+
+}
+.ucard{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    width: 300px;
+    height: 400px;
+    justify-self: center;
+    align-self: center;
+    background-image: linear-gradient(360deg , rgb(93,53,235,10%)  ,rgb(190,0,234,0%));;
+    margin: 0 auto;
+    padding: 10px;
+    border-top: 2px solid rgb(93, 53, 135, 25%);
+    border-right: 1px solid rgb(93, 53, 135, 25%);
+    border-left: 1px solid rgb(93, 53, 135, 25%);
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(149, 40, 200, 0.285);
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+.ch1{
+    grid-row: span 3;
+    align-self: center;
+    justify-self: center;
+    color: rgb(57, 36, 103);
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 9px 2px 4px rgb(93, 53, 135, 25%);
+    margin: 0px;
+}
+.ucard:hover .ch1{
+    opacity: 0.2;
+}
+
+.ucard:hover {
+    transform: scale(1.05);
+}
+
+
+.ucard .card-con {
+    margin: 0px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgb(93,53,235,10%)  ,rgb(190,0,234,0%) 100%);
+    backdrop-filter: blur(3px);
+    transition: 0.5s ease-in-out;
+    z-index: 1;
+    bottom: -100%;
+    border-radius: 20px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+    
+}
+.ucard:hover .card-con {
+    bottom: 0;
+
+
+}

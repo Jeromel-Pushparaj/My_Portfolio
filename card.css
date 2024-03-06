@@ -1081,6 +1081,29 @@
     .cbtn{
         align-self: start;
     }
+    .footer{
+        grid-template-rows: 50px 50px 1fr;
+    }
+    .fh2{
+        font-size: medium;
+        grid-row: 2/4;
+        justify-self: left;
+        align-self: center;
+    }
+    .fp{
+        grid-row: 2/3;
+        grid-column: 3/4;
+        font-size: medium;
+        justify-self: center;
+        align-self: end;
+    }
+    .sicon{
+        grid-row: 3/4;
+        grid-column: 3/4;
+        justify-self: end;
+        align-self: center;
+    }
+    
 }
 
 
@@ -1167,6 +1190,29 @@
     }
     .cbtn{
         align-self: start;
+    }
+    .footer{
+        grid-template-rows: 50px 50px 1fr;
+    }
+    .fh2{
+        font-size: medium;
+        grid-row: 2/4;
+        font-size: 12px;
+        justify-self: left;
+        align-self: center;
+    }
+    .fp{
+        grid-row: 2/3;
+        grid-column: 3/4;
+        font-size: medium;
+        justify-self: center;
+        align-self: end;
+    }
+    .sicon{
+        grid-row: 3/4;
+        grid-column: 3/4;
+        justify-self: end;
+        align-self: center;
     }
 
 
@@ -1299,6 +1345,31 @@
         text-align: center;
         align-self: start;
     }
+    .footer{
+        grid-template-rows: 50px 50px 1fr;
+    }
+    .fh2{
+        font-size: medium;
+        grid-row: 2/3;
+        grid-column: span 3;
+        font-size: 12px;
+        justify-self: center;
+        align-self: center;
+    }
+    .sicon{
+        grid-row: 3/4;
+        grid-column: 1/4;
+        justify-self: center;
+        align-self: end;
+    }
+    .fp{
+        grid-row: 3/4;
+        grid-column:1/4;
+        font-size: medium;
+        justify-self: center;
+        align-self: end;
+    }
+
 }
 @media (min-width: 320px)  and (max-width: 424px){   
     .fcard{
@@ -1427,4 +1498,43 @@
         text-align: center;
         align-self: start;
     }
+    .footer{
+        grid-template-rows: 50px 50px 1fr;
+    }
+    .fh2{
+        font-size: medium;
+        grid-row: 2/3;
+        grid-column: span 3;
+        font-size: 12px;
+        justify-self: center;
+        align-self: center;
+    }
+    .sicon{
+        grid-row: 3/4;
+        grid-column: 1/4;
+        justify-self: start;
+        align-self: end;
+
+        width: 100px;
+        height: 10px;
+    }
+    .fp{
+        grid-row: 3/4;
+        grid-column:1/4;
+        font-size: medium;
+        justify-self: center;
+        align-self: start;
+        margin-bottom: 50px;
+    }
+    ul {
+        width: 0%;
+        transform: translate(-50%, -50%);
+        display:grid;
+        grid-template-columns: 80px 80px 80px 80px;
+        padding: 0px;
+        margin: 0px;
+      }
+      ul li {
+        list-style: none;
+      }
 }

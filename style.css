@@ -31,6 +31,9 @@ header{
 a{
     all: unset;
 }
+button{
+    cursor: pointer;
+}
 
 .headh2{
     justify-self: left;
@@ -40,6 +43,7 @@ a{
     font-family: Inter;
     font-weight: bolder;
     text-shadow: 5px 2px 4px rgb(93, 53, 135, 25%);
+    cursor: pointer;
 }
 .nav-items{
     margin: 5px;
@@ -49,7 +53,7 @@ a{
     font-size: 20px;
     font-family: Inria Sans;
     font-weight: bold;
-    
+    cursor: pointer;
     
     
 }
@@ -57,7 +61,11 @@ a{
     display: none;
     justify-content: right;
     align-items: right;
+    cursor: pointer;
 
+}
+.sidebar{
+    cursor: pointer;
 }
 .a1{
     margin: 10px;

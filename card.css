@@ -1172,8 +1172,7 @@
 
 }
 
-@media (min-width: 425px)  and (max-width: 662px)
-{   
+@media (min-width: 425px)  and (max-width: 662px){   
     .fcard{
         display: none;
     } 
@@ -1301,8 +1300,7 @@
         align-self: start;
     }
 }
-@media (min-width: 320px)  and (max-width: 424px)
-{   
+@media (min-width: 320px)  and (max-width: 424px){   
     .fcard{
         display: none;
     } 

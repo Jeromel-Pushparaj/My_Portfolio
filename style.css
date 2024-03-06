@@ -763,7 +763,7 @@ button{
     all: unset;
     display: inline-block;
     padding: 10px 20px;
-    max-width: 150px;
+    width: 150px;
     height: 20px;
     justify-self: center;
     align-self: center;
@@ -775,10 +775,16 @@ button{
     font-weight: bold;
     text-align: center;
     cursor: pointer;
+    box-shadow: 0 60px 12px -18px rgb(0, 0, 0,0.1), 0 60px 20px -12px rgb(0, 0, 0, 0.1);
+    animation: anime 1s infinite ease-in-out alternate;
+    -webkit-animation: anime 1s infinite ease-in-out alternate;
 }
-.cbti{
-    margin-right: 10px;
+.cbtn:hover{
+    background-color: #7f3192;
+    color: white
+
 }
+
 
 
 

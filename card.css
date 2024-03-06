@@ -986,6 +986,16 @@
         width: 250px;
         height: 350px;
     }
+    .ct{
+        font-size: 50px;
+        align-self: end;
+    }
+    .cst{
+        font-size: 25px;
+    }
+    .cbtn{
+        align-self: start;
+    }
 }
 
 @media(min-width: 768px) and (max-width: 1023px){
@@ -1061,9 +1071,19 @@
     .vch1{
         font-size: 30px;
     }
-
-
+    .ct{
+        font-size: 40px;
+        align-self: end;
+    }
+    .cst{
+        font-size: 20px;
+    }
+    .cbtn{
+        align-self: start;
+    }
 }
+
+
 
 @media(min-width: 663px) and (max-width: 767px){
     .skh1{
@@ -1137,6 +1157,16 @@
     }
     .vch1{
         font-size: 20px;
+    }
+    .ct{
+        font-size: 40px;
+        align-self: end;
+    }
+    .cst{
+        font-size: 20px;
+    }
+    .cbtn{
+        align-self: start;
     }
 
 
@@ -1254,6 +1284,22 @@
     .vch1{
         font-size: 20px;
     }
+    .ct{
+        font-size: 30px;
+        align-self: end;
+    }
+    .cl{
+        width: 50%;
+    }
+    .cst{
+        font-size: 14px;
+    }
+    .cbtn{
+        width: 70px;
+        height: 15px;
+        text-align: center;
+        align-self: start;
+    }
 }
 @media (min-width: 320px)  and (max-width: 424px)
 {   
@@ -1366,5 +1412,21 @@
     }
     .vch1{
         font-size: 15px;
+    }
+    .ct{
+        font-size: 20px;
+        align-self: end;
+    }
+    .cl{
+        width: 50%;
+    }
+    .cst{
+        font-size: 10px;
+    }
+    .cbtn{
+        width: 70px;
+        height: 20px;
+        text-align: center;
+        align-self: start;
     }
 }

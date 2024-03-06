@@ -327,7 +327,7 @@
     color: rgb(57, 36, 103);
     font-family: Inter;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 45px;
     text-shadow: 9px 2px 4px rgb(93, 53, 135, 25%);
     margin: 0px;
 }
@@ -467,7 +467,7 @@
     color: rgb(57, 36, 103);
     font-family: Inter;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 35px;
     text-shadow: 9px 2px 4px rgb(93, 53, 135, 25%);
     margin: 0px;
 }
@@ -522,4 +522,117 @@
         -o-transform: translateY(20px);
         box-shadow: 0 40px 10px -18px rgba(0,0,0,0.2), 0 40px 16px -12px rgba(0,0,0,0.2);
     }
+}
+@media (min-width: 1024px) and (max-width: 1439px)
+{
+    .skh1{
+        font-size: 60px;
+    }
+    .skl1{
+        width: 70%;
+    }
+    .skl2{
+        width: 70%;
+    }
+    .fcard{
+        width: 250px;
+        height: 350px;
+    }
+    .bcard{
+        width: 250px;
+        height: 350px;
+    }
+    .ucard{
+        width: 250px;
+        height: 350px;
+    }
+    .ocard{
+        width: 250px;
+        height: 350px;
+    }
+    .tcard{
+        width: 250px;
+        height: 350px;
+    }
+    .vcard{
+        width: 250px;
+        height: 350px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1023px){
+    .skh1{
+        font-size: 50px;
+    }
+    .skl1{
+        width: 60%;
+    }
+    .skl2{
+        width: 60%;
+    }
+    .ci1{
+        width: 80px !important;
+        height: 80px !important;
+    }
+    .cl1{
+        font-size: 16px;
+    }
+    .ci2{
+        width: 80px !important;
+        height: 80px !important;
+    }
+    .cl2{
+        font-size: 18px;
+    }
+    .ci3{
+        width: 80px !important;
+        height: 80px !important;
+    }
+    .cl3{
+        font-size: 18PX;
+    }
+    .fcard{
+        width: 200px;
+        height: 350px;
+    }
+    .fch1{
+        font-size: 40px;
+    }
+    .bcard{
+        width: 200px;
+        height: 350px;
+    }
+    .bch1{
+        font-size: 40px;
+    }
+    .ucard{
+        width: 200px;
+        height: 350px;
+    }
+    .uch1{
+        font-size: 40px;
+    }
+    .ocard{
+        width: 200px;
+        height: 350px;
+    }
+    .och1{
+        font-size: 40px;
+    }
+    .tcard{
+        width: 200px;
+        height: 350px;
+    }
+    .tch1{
+        font-size: 40px;
+    }
+    .vcard{
+        width: 200px;
+        height: 350px;
+    }
+    .vch1{
+        font-size: 30px;
+    }
+
+
 }

@@ -179,6 +179,10 @@ button{
     z-index: -1;
     max-width: 50%;
 }
+.welbtna{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
 
 .welcombtn{
     grid-column: 1/2;

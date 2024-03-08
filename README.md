@@ -13,7 +13,6 @@ Welcome to my portfolio GitHub repository! This repository contains the source c
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [License](#license)
 
 ## About
 

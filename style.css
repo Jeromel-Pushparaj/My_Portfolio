@@ -64,6 +64,17 @@ button{
     cursor: pointer;
 
 }
+.micon{
+    width: 45%;
+}
+.menubar1 {
+
+    all: unset;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 .sidebar{
     cursor: pointer;
 }

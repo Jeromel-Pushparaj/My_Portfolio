@@ -41,6 +41,10 @@ document.addEventListener("DOMContentLoaded", function() {
     pdb3.addEventListener('click', function() {
         window.open('https://github.com/Jeromel-Pushparaj/My-projects', '_blank');
     });
+    const more = document.getElementById('more');
+    cb.addEventListener('click', function() {
+        window.open('project.html', '_blank');
+    });
 
     const cb = document.getElementById('cb');
     cb.addEventListener('click', function() {

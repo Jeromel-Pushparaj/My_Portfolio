@@ -940,6 +940,10 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
+.more{
+    all: unset;
+    font-size: 15px;
+}
 
 @keyframes anime {
     100% {

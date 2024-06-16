@@ -590,7 +590,7 @@ button{
     grid-column: span 2;
     justify-self: center;
     align-self: end;
-    margin-bottom: 20px;
+    margin-top: 50px;
     margin-right: 130px;
     max-width: 160px;
     font-family: Inter;
